@@ -1,10 +1,10 @@
 name: Run speedlify
 
 on:
-  push:
-  workflow_dispatch:
+  # push:
+  # workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "* 14 * * *"
 
 jobs:
   run-tests:
