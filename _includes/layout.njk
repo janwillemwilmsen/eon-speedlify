@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>E.ON Speedlify {{ sites[vertical].name }}</title>
 		<meta name="description" content="Benchmark web pages over time.">
-		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		{# <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> #}
 
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
@@ -36,9 +36,10 @@
 			<div class="w-full bg-gray-800 ">	
 				<div class="px-20 py-20 speedlify-hed1">
 						<a href="{{ '/' | url }}" class="text-2xl subpixel-antialiased text-gray-300 fonttracking-tighter ">
-						<img src="/assets/img/favicon/favicon-32x32.png" width="32"  height="32" alt="E.ON Website benchmark">
+						<img src="/assets/img/favicon/logo.png" width="32"  height="32" alt="E.ON Website benchmark">
 						Websitebenchmark</a>
  
+  
 
 							<div class="flex flex-row mt-2">
 									<div class="w-24 h-8 p-2 bg-purple-700 one">
@@ -100,14 +101,14 @@
 			<div class="w-6/12 h-1 bg-purple-400"> </div>
 			</div>
 			
-			<div class="py-4 pl-20 text-sm text-gray-500 bg-gray-600 ">
+			<div class="py-4 pl-20 text-sm text-white bg-gray-600 opacity-90 ">
 
 <style>
-a.ftl:link {color: #b9b8b8;}
-a.ftl:visited {color: #b9b8b8;}
+a.ftl:link {color: white;}
+a.ftl:visited {color: white;}
 </style>
-			MIT licensed. Powered by <a class="text-sm text-gray-400 ftl visited:text-gray-400" href="https://www.zachleat.com/web/speedlify/">Speedlify</a>. 
-			<br>Source code on <a  class="text-sm text-gray-400 ftl visited:text-gray-400" href="https://github.com/zachleat/speedlify/">GitHub</a>. 
+			MIT licensed. Powered by <a class="text-sm text-white ftl visited:text-gray-400" href="https://www.zachleat.com/web/speedlify/">Speedlify</a>. 
+			<br>Source code on <a  class="text-sm text-white ftl visited:text-gray-400" href="https://github.com/zachleat/speedlify/">GitHub</a>. 
 			<br>Set up and managed by JWW
 			</div>
 		</footer>

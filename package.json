@@ -9,7 +9,9 @@
     "watch:tailwind": "postcss ./assets/tw.css -o ./assets/tw-output.css --verbose -w --on-change-only",
     "watch:tww": "postcss ./assets/tw.css -o ./assets/tw-output.css --on-change-only",
     "watch:tw": "postcss ./assets/tw.css -o ./assets/tw-output.css",
-    "build": "npx @11ty/eleventy --quiet",
+    "cssminall": "postcss ./assets/style.css > ./assets/style-output-mini.css",
+    "twminall": "postcss ./assets/tw-output.css > ./assets/tw-output-mini.css",
+    "build": "eleventy --quiet",
     "start": "npx @11ty/eleventy --quiet --serve",
     "zip-results": "node zip-results.js",
     "build-production": "npm run test-pages && npm run build && npm run zip-results"
@@ -46,13 +48,14 @@
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
     "performance-leaderboard": "^5.1.0",
-    "postcss-cli": "^8.3.1",
     "short-hash": "^1.0.0",
     "speedlify-score": "^2.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.2",
-    "tailwindcss": "^2.1.4"
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.2"
   }
 }
