@@ -1,0 +1,152 @@
+---
+layout: layout.njk
+---
+<div class="px-20">
+ <div class="mx-auto text-2xl subpixel-antialiased font-light tracking-tighter text-gray-300 "  >
+        <h1>Make fast websites</h1>
+</div>
+ 
+{# <div class="prose sm:prose lg:prose-lg xl:prose-2xl">
+ 
+ 
+ <h2>What to expect from here on out</h2>
+    <div class="text-xl leading-8 text-gray-300">Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a        keen eye for typography and a lot of complex custom CSS.</div>
+
+
+<h2>What to expect from here on out</h2>
+    <div class="text-xl leading-8 text-gray-300">Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a        keen eye for typography and a lot of complex custom CSS.</div>
+    </div>
+
+
+<hr>  #}
+<script>
+const faq = [
+  {
+    question: "Hosting",
+    answer: [
+      "Obvious, buy cheap get cheap.",
+      "Cloud, CDN, Edge as close to your visitors as possible.",
+    ]
+  }
+  ,
+  {
+    question: "Images",
+    answer: [
+      "Optimize for device. Use 'picture' element with different sized images for different viewports.",
+      "Optimize for browser. Use newer file formats like WebP and AVIF, because PNG and JPG were invented way before the internet.",
+      "Optimize file sizes of images with <a href='https://squoosh.app/'>squoosh.app</a>.",
+      "Lazy load images outside viewport.",
+      "Set 'height' and 'width' and set 'aspect ratio'.",
+      "Use CDN.",
+    ]
+  },
+  {
+    question: "Javascript",
+    answer: [
+      "Check coverage in the inspector, remove excessive code. ",
+      "Consider removing hardly used javascript code.",
+      "Optimize javascript bundles. ",
+      "Defer tasks to service workers. ",
+      "Minify / uglyfy javascript. ",
+      "Load non critical scripts 'async' or 'defer'. ",
+      "Third-party, identify slow scripts(block in network requests and compare speed) or Lighthouse, use async or defer, preconnect+dns-prefetch, lazy load scripts, optional self host scripts. "
+    ]
+  },
+   {
+    question: "HTML CSS",
+    answer: [
+      "Minify HTML and CSS.",
+      "Use inline 'Critical' CSS to render above the fold the content first, this will increase the perceived performance. Load rest of CSS in non-blocking way.",
+      "Purge CSS, remove unused classes."
+    ]
+  },
+   {
+    question: "Resource delivery and loading strategy",
+    answer: [
+      "Preload helps with setting loading priorities for the resources needed on the page, mostly for late discovered resources that are needed early in the loading process. Use 'preload' only for most important resources. Preload what needs to be preloaded, can be the non Critical CSS part, can be fonts or background images used in CSS.",
+      "Preconnect to external domain. To heat up the connection in advance. Resources downloaded from the external site will arrive faster. Used only on most important extrnal resources.",
+      "Preconnect is for most important external resources, 'dns-prefetch' to all other external resources.",
+      "Win 100–500 ms by establishing early connections to important third-party origins with preconnect en dns-prefetch.",
+      "Use 'Prefetch' to start downloading resources needed for the next page visitors visit. Usefull if you know where visitors go.",
+      "Preloaded resource has to be used in about 3 seconds, otherwise there will be an error in the console. A preconnected domain has to be used in 10 seconds otherwise the connection will be closed.",
+    ]
+  },
+   {
+    question: "Server",
+    answer: [
+      "Set Cache rules for static assets.",
+      "Use 'H2' instead of http/1.1. as internet protocol.",
+      "Brotli, Gzip on server for compressing content."
+    ]
+  },
+   {
+    question: "Fonts",
+    answer: [
+      "Don't use fonts, or at least dont use to many different fonts.",
+      "Don't load all font variants.",
+      "Deliver optimized font formats to specific browsers."
+    ]
+  },
+   {
+    question: "More",
+    answer: [
+      "<a href='https://web.dev/'>web.dev</a>",
+      "<a href='https://web.dev/'>web.dev</a>",
+      "<a href='https://web.dev/'>web.dev</a>",
+      "<a href='https://web.dev/'>web.dev</a>",
+      "<a href='https://web.dev/'>web.dev</a>",
+    ]
+  }
+];
+
+</script>
+
+
+
+ 
+
+  <div class="max-w-2xl my-10 space-y-4 lg:space-y-6" x-data="{faq, faq_selected: null }">
+
+    <template x-for="(item, index) in faq" :key="`item-{$index}`">
+
+      <div class="p-3 bg-gray-800 rounded-md shadow-md bg-opacity-90 item">
+        <div class="flex items-center cursor-pointer" @click="faq_selected !== index ? faq_selected = index : faq_selected = null">
+          <div class="flex items-center justify-center w-8 h-8 text-lg font-bold text-indigo-400 rounded-md md:w-10 md:h-10 font-display">
+            {# <span x-text="index + 1"></span> #}
+
+
+            <svg x-bind:style="faq_selected === index ? `display:none;` : `display:block`" class="fill-current" viewBox="0 0 24 24" width="24" height="24">
+              <path class="heroicon-ui"
+                d="M12 22a10 10 0 110-20 10 10 0 010 20zm0-2a8 8 0 100-16 8 8 0 000 16zm1-9h2a1 1 0 010 2h-2v2a1 1 0 01-2 0v-2H9a1 1 0 010-2h2V9a1 1 0 012 0v2z" />
+              </svg>
+            
+            <svg x-bind:style="faq_selected === index ? `display:block;` : `display:none`" class="fill-current" viewBox="0 0 24 24" width="24" height="24">
+              <path class="heroicon-ui"
+                d="M12 22a10 10 0 110-20 10 10 0 010 20zm0-2a8 8 0 100-16 8 8 0 000 16zm4-8a1 1 0 01-1 1H9a1 1 0 010-2h6a1 1 0 011 1z" />
+              </svg>
+
+
+
+          </div>
+          <div class="ml-3 text-indigo-400 md:ml-4 lg:ml-6 md:text-lg">
+            <span x-text="item.question"></span>
+          </div>
+        </div>
+        <div class="relative overflow-hidden transition-all duration-700 max-h-0" x-bind:style="faq_selected === index ? `max-height:  ${ $el.scrollHeight }px` : ``">
+          <div class="py-2 pl-3 ml-8 space-y-3 text-xl leading-8 text-gray-300 md:ml-10 md:pl-4 lg:pl-6">
+
+            <template x-for="(ans, index) in item.answer" :key="`item-ans-{$index}`">
+              <p x-html="ans"></p>
+            </template>
+
+          </div>
+        </div>
+      </div>
+
+    </template>
+
+  </div>
+</div>
+
+
+</div>

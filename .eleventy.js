@@ -3,6 +3,8 @@ const shortHash = require("short-hash");
 const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
+const pluginPWA = require("eleventy-plugin-pwa");
+
 
 function hasUrl(urls, requestedUrl) {
 	// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
@@ -66,6 +68,16 @@ function getLighthouseTotal(entry) {
 }
 
 module.exports = function(eleventyConfig) {
+ 
+		eleventyConfig.addPlugin(pluginPWA, {
+			globPatterns: [
+				"**/*.{ico}"
+			  ],
+	
+			// swDest: "./build/sw.js",
+			// globDirectory: "./build"
+		  });
+
 	eleventyConfig.addFilter("shortHash", shortHash);
 
 	eleventyConfig.addFilter("repeat", function(str, times) {
@@ -123,6 +135,13 @@ module.exports = function(eleventyConfig) {
 		let date = new Date(timestamp);
 		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
 		return `${day} <span class="leaderboard-hide-md">${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
+	});
+
+	eleventyConfig.addFilter("displayDateJW", function(timestamp) {
+		let months = ["January", "February", "March", "April", "Mey", "June", "July", "August", "September", "October", "November", "December"];
+		let date = new Date(timestamp);
+		let day = `${months[date.getMonth()]} ${pad(date.getDate())}`;
+		return `${day} <span class="leaderboard-hide-md">at ${pad(date.getHours())}:${pad(date.getMinutes())}</span>`;
 	});
 
 	eleventyConfig.addFilter("sortCumulativeScore", (obj) => {
@@ -312,6 +331,13 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/chartist/dist/chartist.js": "chartist.js",
 		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
 	});
+
+
+
+
+
+	eleventyConfig.addPassthroughCopy("assets/img");
+
 
 	eleventyConfig.addWatchTarget("./assets/");
 

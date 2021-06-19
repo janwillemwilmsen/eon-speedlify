@@ -1,0 +1,10 @@
+
+
+design changes.
+install PWA
+sites.js copy
+changes dates+times for auto-build.
+add modal with details about calc.
+
+Github + Vercel Essent.online.
+Connect local Speedlify to GH

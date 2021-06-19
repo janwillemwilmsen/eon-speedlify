@@ -6,6 +6,9 @@
   "scripts": {
     "clean": "rm -rf _data/results/* && rm -rf .log && rm -rf _site",
     "test-pages": "node run-tests",
+    "watch:tailwind": "postcss ./assets/tw.css -o ./assets/tw-output.css --verbose -w --on-change-only",
+    "watch:tww": "postcss ./assets/tw.css -o ./assets/tw-output.css --on-change-only",
+    "watch:tw": "postcss ./assets/tw.css -o ./assets/tw-output.css",
     "build": "npx @11ty/eleventy --quiet",
     "start": "npx @11ty/eleventy --quiet --serve",
     "zip-results": "node zip-results.js",
@@ -30,17 +33,26 @@
   },
   "homepage": "https://github.com/zachleat/speedlify#readme",
   "dependencies": {
-    "@11ty/eleventy": "0.11.0",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-cache-assets": "^2.0.3",
+    "@tailwindcss/jit": "^0.1.18",
+    "@tailwindcss/typography": "^0.4.1",
     "byte-size": "^7.0.0",
     "chartist": "^0.11.4",
     "cross-zip": "^3.1.0",
     "dotenv": "^8.2.0",
+    "eleventy-plugin-pwa": "^1.0.8",
     "fast-glob": "^3.2.4",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
-    "performance-leaderboard": "^3.1.5",
+    "performance-leaderboard": "^5.1.0",
+    "postcss-cli": "^8.3.1",
     "short-hash": "^1.0.0",
-    "speedlify-score": "^1.0.2"
+    "speedlify-score": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.2",
+    "tailwindcss": "^2.1.4"
   }
 }

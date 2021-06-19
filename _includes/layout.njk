@@ -3,33 +3,119 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
+		<title>E.ON Speedlify {{ sites[vertical].name }}</title>
 		<meta name="description" content="Benchmark web pages over time.">
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
+		<script>
+		if ("serviceWorker" in navigator)
+			navigator.serviceWorker.register("/service-worker.js");
+		</script> 
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+		
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+
 	</head>
-	<body>
-		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
-		<p class="speedlify-subhed">
-			Benchmark {{ sites[vertical].description or "web pages" }} over time.
+	<body class="flex flex-col ">
+
+	<header>
+			<div class="w-full bg-gray-800 ">	
+				<div class="px-20 py-20 speedlify-hed1">
+						<a href="{{ '/' | url }}" class="text-2xl subpixel-antialiased text-gray-300 fonttracking-tighter ">
+						<img src="/assets/img/favicon/favicon-32x32.png" width="32"  height="32" alt="E.ON Website benchmark">
+						Websitebenchmark</a>
+
+
+							<div class="flex flex-row mt-2">
+									<div class="w-24 h-8 p-2 bg-purple-700 one">
+										<a href="/cwv/">web-vitals</a>
+									</div>
+
+									<div class="w-40 h-8 p-2 bg-pink-700 one">
+										<a href="/fast/">make websites fast</a>
+									</div>
+	
+
+							</div>
+
+
+
+
+
+				</div>
+			</div>	
+	</header>
+				
+	<div class="sticky top-0 flex flex-row w-full" style="position: sticky;">
+			<div class="w-2/12 h-1 bg-yellow-400"> </div>
+			<div class="w-4/12 h-1 bg-green-400"> </div>
+			<div class="w-6/12 h-1 bg-purple-400"> </div>
+	</div>			 
+	<div id="main" class="w-full py-20 bg-gray-700 ">
+
+		
+
+			{# {% if vertical %}{{ vertical }}{% endif %} #}
+		<div class="px-20 text-2xl subpixel-antialiased font-light tracking-tighter text-gray-300 "  >
+		<div class="text-gray-300 speedlify-subhed2">
+			
+		
+			{% if vertical %}  {{ sites[vertical].description or "Choose a category:" }}   {% endif %}
+		
+		
 			{%- if maxResults %}
-				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
+				{# Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
+				<br> #}
+			<div class="text-sm font-normal tracking-normal text-gray-500 ">Last update, {{ lastruns[vertical].timestamp | displayDateJW | safe }}</div>
 			{% endif %}
-			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-		</p>
-		<p class="speedlify-subhed">
-			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-		</p>
+		
+		</div>
+		</div>
 
 		{{ content | safe }}
 
-		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-		</footer>
 
+
+	</div>
+ 
+
+		<footer  class="h-20 bg-gray-800 ">
+			<div class="flex flex-row w-full">
+			<div class="w-2/12 h-1 bg-yellow-400"> </div>
+			<div class="w-4/12 h-1 bg-green-400"> </div>
+			<div class="w-6/12 h-1 bg-purple-400"> </div>
+			</div>
+			
+			<div class="py-4 pl-20 text-sm text-gray-500 bg-gray-600 ">
+
+<style>
+a.ftl:link {color: #b9b8b8;}
+a.ftl:visited {color: #b9b8b8;}
+</style>
+			MIT licensed. Powered by <a class="text-sm text-gray-400 ftl visited:text-gray-400" href="https://www.zachleat.com/web/speedlify/">Speedlify</a>. 
+			<br>Source code on <a  class="text-sm text-gray-400 ftl visited:text-gray-400" href="https://github.com/zachleat/speedlify/">GitHub</a>. 
+			<br>Set up and managed by JWW
+			</div>
+		</footer>
+{% if vertical %}
+{# {{ vertical }} #}
 		<script defer src="{{ '/chartist.js' | url }}"></script>
 		<script defer src="{{ '/script.js' | url }}"></script>
+
+
+{% endif %}
 	</body>
 </html>

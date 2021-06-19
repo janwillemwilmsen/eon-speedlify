@@ -6,3 +6,14 @@ _data/results-last-runs.json
 package-lock.json
 .env
 .cache
+
+
+_data/sites/AAeon-de.js
+_data/sites/AAeonnext.js
+_data/sites/AAessent.js
+_data/sites/BBenergiedirect.js
+_data/sites/CCvandebron.js
+_data/sites/DDenergiebranche.js
+_data/sites/FFservicepartners.js
+_data/sites/GGservicepartners2.js
+_data/sites/XXenergieanbieter.js
