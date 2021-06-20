@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 ---
-<div class="px-20">
+<div class="px-4 md:px-20">
  <div class="mx-auto text-2xl subpixel-antialiased font-light tracking-tighter text-gray-300 "  >
         <h1>Make fast websites</h1>
 </div>
@@ -61,7 +61,7 @@ const faq = [
     ]
   },
    {
-    question: "Resource delivery and loading strategy",
+    question: "Resource delivery and loading strategy, resource hints",
     answer: [
       "Preload helps with setting loading priorities for the resources needed on the page, mostly for late discovered resources that are needed early in the loading process. Use 'preload' only for most important resources. Preload what needs to be preloaded, can be the non Critical CSS part, can be fonts or background images used in CSS.",
       "Preconnect to external domain. To heat up the connection in advance. Resources downloaded from the external site will arrive faster. Used only on most important extrnal resources.",

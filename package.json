@@ -12,7 +12,7 @@
     "cssminall": "postcss ./assets/style.css > ./assets/style-output-mini.css",
     "twminall": "postcss ./assets/tw-output.css > ./assets/tw-output-mini.css",
     "build": "npx @11ty/eleventy --quiet ",
-    "build2": "npm run twminall && npm run cssminall && eleventy --quiet ",
+    "minifycssbuild": "npm run twminall && npm run cssminall",
     "start": "npx @11ty/eleventy --quiet --serve",
     "zip-results": "node zip-results.js",
     "build-production": "npm run test-pages && npm run build && npm run zip-results"

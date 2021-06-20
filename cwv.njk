@@ -2,59 +2,60 @@
 layout: layout.njk
 ---
 
- <div class="px-20">
- <div class="mx-auto text-2xl subpixel-antialiased font-light tracking-tighter text-gray-300 "  >
+ <div class="px-4 md:px-20">
+ <div class="mx-auto text-2xl subpixel-antialiased font-light text-gray-300 "  >
         <h1>Web vitals</h1>
 
 
- <div class="mt-4 font-normal prose sm:prose lg:prose-lg xl:prose-2xl">
+ <div class="mt-4 font-normal prose sm:prose lg:prose-lg xl:prose-2xl max-w-prose">
  
  
-            <div class="mt-4 text-xl leading-8 text-gray-300">
-            Web Vitals are metrics created by Google to measure the user expierence of websites.  The 'Core Web Vitals' (CWV) are a subset, a set where Google is focussing on and where you should focus on.
-            For now (2020 2021) Google has included the LCP, FID and CLS in the Core Web Vitals. They measure 'loading', 'interactivity' and 'visual stability' of pages. 
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
+            Web Vitals are metrics created by Google to measure the user expierence of websites.  <br><br>The 'Core Web Vitals' (CWV) are a subset, a set where Google is focussing on and where you should focus on.
+            For now (2020 2021) Google has included the LCP, FID and CLS in the Core Web Vitals. They measure the: 'loading', 'interactivity' and 'visual stability' of pages. 
 
             </div>
-        <h2>Largest Contentful Paint(LCP) </h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
+        <h2 class="font-medium ">Largest Contentful Paint(LCP) </h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
             The time to load and show the biggest element above the fold, LCP measures 'loading performance'. Has influence on the perceived loading expierence for the page. For a good user expierence this has to be under 2.5 seconds. 
             </div>
-        <h2>First Input Delay(FID) </h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
+        <h2 class="font-medium ">First Input Delay(FID) </h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
             How fast the page is interactive and can be used by visitors. The FID metric is calculated and based on actual field data, a proxy for FID is the 'Total Blocking Time'.  
             'TBT' measures all the individual 'long tasks'. All tasks over 50 miliseconds are considered long. The sum of excess time above 50ms is the TBT.
             </div>
-        <h2>Cumulative Layout Shift(CLS) </h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
+        <h2 class="font-medium ">Cumulative Layout Shift(CLS) </h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
             The visual stability of the page. Shifting elements cause frustration. Imagine reading text which suddenly moves, not pleasent. 
             Or wanting to click a link which suddenly moves and you end up clicking something else.   
             </div>
     
 
-        <h2>Core Web Vitals - Metrics and thresholds</h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
+        <h2 class="font-medium ">Core Web Vitals - Metrics and thresholds</h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
              Ranges for Core Web Vitals. When a metric is poor and needs work. Or is 'good'.       
-            <img src="/assets/img/cwv.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:16/9" width="601" height="338">
+            <img  class="mt-4" src="/assets/img/cwv.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:16/9" width="601" height="338">
             </div>
 
 
 
 
-            <h2>Other Web Vitals:</h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
-            Serve as proxy or supplemental metrics for the Core Web Vitals. <br>
-            <li> First Contentful Paint(FCP): <em>Measuring perceived load speed. Time between navigation to page to when a user sees something. </em></li>
-            <li>Speed Index (SI): <em>How fast content is visually presented on the page, based on the 'visual progression' of the painting of frames during page load. </em></li>
-            <li>Time to Interactive(TTI): <em>Is at the end of the last long task. Long task is longer than 50ms. If no long tasks, than TTI ends at end of FCP.</em></li>
-            <li>Time to First Byte(TTFB): <em>Slow server. She time that it takes for a user's browser to receive the first byte of page content.</em></li>
+            <h2 class="font-medium ">Other Web Vitals:</h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
+            Serve as proxy or supplemental metrics for the Core Web Vitals. <br><br>
+            <ul class="list-none">
+            <li><span class="font-bold "> First Contentful Paint(FCP):</span><br> Measuring perceived load speed. Time between navigation to page to when a user sees something.<br><br> </li>
+            <li><span class="font-bold ">Speed Index (SI):</span><br> How fast content is visually presented on the page, based on the 'visual progression' of the painting of frames during page load.<br><br> </li>
+            <li><span class="font-bold ">Time to Interactive(TTI):</span><br> Is at the end of the last long task. Long task is longer than 50ms. If no long tasks, than TTI ends at end of FCP.<br><br></li>
+            <li><span class="font-bold ">Time to First Byte(TTFB):</span><br> Slow server. She time that it takes for a user's browser to receive the first byte of page content.<br><br></li>
             </ul> 
             </div>
  
 
-            <h2>Score</h2>
-            <div class="mt-4 text-xl leading-8 text-gray-300">
+            <h2 class="font-medium ">Score</h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
             Four categories of metrics. In every category the maximum score is 100 points. So a total of 400 is maximum score.
-                <img src="/assets/img/lighthouse-elements-scoring.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:4/3" width="600" height="450">
+                <img class="mt-4" src="/assets/img/lighthouse-elements-scoring.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:4/3" width="600" height="450">
             </div> 
 
     

@@ -7,7 +7,19 @@
 		<meta name="description" content="Benchmark web pages over time.">
 		{# <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> #}
 
-		<link rel="stylesheet" href="{{ '/style.css' | url }}">
+	
+
+
+{% if vertical %} 
+							<!--CSS-STYLE-ALL-->  
+							<link rel="stylesheet" href="{{ '/style.css' | url }}">
+	{% else %}
+
+							<!--TW-STYLE-ALL--> 
+							<link rel="stylesheet" href="{{ '/tw.css' | url }}">
+{% endif %}
+
+
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
@@ -28,32 +40,33 @@
 <meta name="theme-color" content="#ffffff">
 <!---FakeComment-->
 
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
 	</head>
 	<body class="flex flex-col ">
 
 	<header>
 			<div class="w-full bg-gray-800 ">	
-				<div class="px-20 py-20 speedlify-hed1">
-						<a href="{{ '/' | url }}" class="text-2xl subpixel-antialiased text-gray-300 fonttracking-tighter ">
+				<div class="px-10 py-20 md:px-20 speedlify-hed1">
+						<a href="{{ '/' | url }}" class="inline-block text-2xl subpixel-antialiased text-gray-300 fonttracking-tighter ">
 
-<picture>
+{# <picture>
   <source srcset="/assets/img/favicon/logo.webp" type="image/webp">
   	<img src="/assets/img/favicon/logo.png" width="32"  height="32" alt="E.ON Website benchmark">
-</picture>
+</picture> #}
 
-
+<img class="" width="32" height="32" src="/assets/img/logo.svg" alt="web.dev">
 					
 						Websitebenchmark</a>
  
   
 
-							<div class="flex flex-row mt-2">
-									<div class="w-24 h-8 p-2 bg-purple-700 one">
-										<a href="/cwv/">Web-vitals</a>
+							<div class="flex flex-row mt-2 ">
+									<div class="w-24 h-8 p-2 text-sm font-semibold text-gray-200 underline bg-purple-700">
+										<a href="/cwv/">Web Vitals</a>
 									</div>
 
-									<div class="w-40 h-8 p-2 bg-pink-700 one">
+									<div class="h-8 p-2 text-sm font-semibold text-gray-200 underline bg-pink-700 w-44">
 										<a href="/fast/">Make websites fast</a>
 									</div>
 	
@@ -101,14 +114,14 @@
 	</div>
  
 
-		<footer  class="h-20 bg-gray-800 ">
+		<footer  class="bg-gray-800 ">
 			<div class="flex flex-row w-full">
 			<div class="w-2/12 h-1 bg-yellow-400"> </div>
 			<div class="w-4/12 h-1 bg-green-400"> </div>
 			<div class="w-6/12 h-1 bg-purple-400"> </div>
 			</div>
 			
-			<div class="py-4 pl-20 text-sm text-white bg-gray-600 opacity-90 ">
+			<div class="py-4 pl-4 text-sm text-white bg-gray-600 md:pl-20 opacity-90 ">
 
 <style>
 a.ftl:link {color: white;}
@@ -116,7 +129,9 @@ a.ftl:visited {color: white;}
 </style>
 			MIT licensed. Powered by <a class="text-sm text-white ftl visited:text-gray-400" href="https://www.zachleat.com/web/speedlify/">Speedlify</a>. 
 			<br>Source code on <a  class="text-sm text-white ftl visited:text-gray-400" href="https://github.com/zachleat/speedlify/">GitHub</a>. 
-			<br>Set up and managed by JWW
+			<br>Set up and managed by JWW.<br>
+			<span class="text-xs ">
+			For fast access to the data: install this website as an app on your device.</span>
 			</div>
 		</footer>
 {% if vertical %}
