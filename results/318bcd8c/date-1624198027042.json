@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energis.de/",
+  "requestedUrl": "https://www.energis.de/",
+  "timestamp": 1624198303348,
+  "ranks": {
+    "hundos": 7,
+    "performance": 8,
+    "accessibility": 9,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.0.0",
+    "performance": 0.4,
+    "accessibility": 0.82,
+    "bestPractices": 0.87,
+    "seo": 0.86,
+    "total": 295
+  },
+  "firstContentfulPaint": 1588.418,
+  "firstMeaningfulPaint": 1962.5389999999998,
+  "speedIndex": 4406.72576716782,
+  "largestContentfulPaint": 8357.047999999999,
+  "totalBlockingTime": 608,
+  "cumulativeLayoutShift": 0.7251953125,
+  "timeToInteractive": 5698.388999999999,
+  "maxPotentialFirstInputDelay": 297,
+  "timeToFirstByte": 813.2589999999999,
+  "weight": {
+    "summary": "59 requests • 1,696 KiB",
+    "total": 1736194,
+    "image": 1104963,
+    "imageCount": 19,
+    "script": 316886,
+    "scriptCount": 15,
+    "document": 17754,
+    "font": 216146,
+    "fontCount": 4,
+    "stylesheet": 78012,
+    "stylesheetCount": 1,
+    "thirdParty": 81564,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 977,
+    "violations": 94
+  }
+}
