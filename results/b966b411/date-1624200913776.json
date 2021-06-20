@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.com/en.html",
+  "requestedUrl": "https://www.eon.com/en.html",
+  "timestamp": 1624201181936,
+  "ranks": {
+    "hundos": 12,
+    "performance": 20,
+    "accessibility": 4,
+    "cumulative": 13
+  },
+  "lighthouse": {
+    "version": "8.0.0",
+    "performance": 0.2,
+    "accessibility": 0.88,
+    "bestPractices": 0.93,
+    "seo": 0.86,
+    "total": 287
+  },
+  "firstContentfulPaint": 2082.3640000000005,
+  "firstMeaningfulPaint": 3338.8640000000005,
+  "speedIndex": 6873.642267379607,
+  "largestContentfulPaint": 7855.079,
+  "totalBlockingTime": 1563.0708389282222,
+  "cumulativeLayoutShift": 0.62681640625,
+  "timeToInteractive": 11468.046838928225,
+  "maxPotentialFirstInputDelay": 970,
+  "timeToFirstByte": 80.881,
+  "weight": {
+    "summary": "229 requests • 1,262 KiB",
+    "total": 1292739,
+    "image": 220975,
+    "imageCount": 10,
+    "script": 512529,
+    "scriptCount": 89,
+    "document": 34692,
+    "font": 426751,
+    "fontCount": 10,
+    "stylesheet": 70660,
+    "stylesheetCount": 22,
+    "thirdParty": 645313,
+    "thirdPartyCount": 66
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 3509,
+    "violations": 69
+  }
+}
