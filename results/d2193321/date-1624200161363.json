@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eprimo.de/",
+  "requestedUrl": "https://www.eprimo.de/",
+  "timestamp": 1624200287224,
+  "ranks": {
+    "hundos": 14,
+    "performance": 11,
+    "accessibility": 24,
+    "cumulative": 14
+  },
+  "lighthouse": {
+    "version": "8.0.0",
+    "performance": 0.37,
+    "accessibility": 0.65,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 275
+  },
+  "firstContentfulPaint": 3464.6359999999995,
+  "firstMeaningfulPaint": 3464.6359999999995,
+  "speedIndex": 6660.815157181326,
+  "largestContentfulPaint": 8782.820999999996,
+  "totalBlockingTime": 842.7480000000005,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8529.820999999996,
+  "maxPotentialFirstInputDelay": 648.0000000000009,
+  "timeToFirstByte": 425.9030000000001,
+  "weight": {
+    "summary": "54 requests • 1,108 KiB",
+    "total": 1134509,
+    "image": 315133,
+    "imageCount": 16,
+    "script": 527626,
+    "scriptCount": 11,
+    "document": 116167,
+    "font": 91740,
+    "fontCount": 6,
+    "stylesheet": 57370,
+    "stylesheetCount": 3,
+    "thirdParty": 317837,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1200,
+    "violations": 16
+  }
+}
