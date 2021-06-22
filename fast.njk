@@ -49,7 +49,7 @@ const faq = [
       "Defer tasks to service workers. ",
       "Minify / uglyfy javascript. ",
       "Load non critical scripts 'async' or 'defer'. ",
-      "Third-party, identify slow scripts(block in network requests and compare speed) or Lighthouse, use async or defer, preconnect+dns-prefetch, lazy load scripts, optional self host scripts. "
+      "Third-party, identify slow scripts (block in network requests and compare speed or use Lighthouse) load with async or defer, preconnect+dns-prefetch, lazy load scripts, optional self host scripts. "
     ]
   },
    {
@@ -57,7 +57,8 @@ const faq = [
     answer: [
       "Minify HTML and CSS.",
       "Use inline 'Critical' CSS to render above the fold the content first, this will increase the perceived performance. Load rest of CSS in non-blocking way.",
-      "Purge CSS, remove unused classes."
+      "Purge CSS, remove unused classes.",
+      "Add 'content-visibility:auto' CSS rules to lower parts of long pages."
     ]
   },
    {
@@ -91,10 +92,11 @@ const faq = [
     question: "More",
     answer: [
       "<a href='https://web.dev/'>web.dev</a>",
-      "<a href='https://web.dev/'>web.dev</a>",
-      "<a href='https://web.dev/'>web.dev</a>",
-      "<a href='https://web.dev/'>web.dev</a>",
-      "<a href='https://web.dev/'>web.dev</a>",
+      "<a href='https://perfnow.nl/'>perfnow.nl</a>",
+      "<a href='https://perfmattersconf.com/'>perfmattersconf.com</a>",
+      "<a href='https://www.youtube.com/playlist?list=PLAwxTw4SYaPmKmNX-INgcxQWf30KuWa_A'>Web Performance Optimization Youtube</a>",
+      "<a href='https://www.youtube.com/watch?v=UButxfgBljA&t=1951s'>Web Performance APIs</a>",
+      "<a href='https://www.youtube.com/user/igrigorik'>How browsers and internet works</a>",
     ]
   }
 ];
