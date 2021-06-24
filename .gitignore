@@ -8,7 +8,6 @@ package-lock.json
 .cache
 
 
-_data/sites/FFservicepartners.js
 _data/sites/GGservicepartners2.js
 _data/sites/XXenergieanbieter.js
 .vercel
