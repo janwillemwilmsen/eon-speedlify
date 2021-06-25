@@ -22,10 +22,13 @@ layout: layout.njk
 <script>
 const faq = [
   {
-    question: "Hosting",
+    question: "Hosting and server",
     answer: [
       "Obvious, buy cheap get cheap.",
       "Cloud, CDN, Edge as close to your visitors as possible.",
+      "Set Cache rules for static assets.",
+      "Use 'H2' instead of http/1.1. as internet protocol.",
+      "Brotli, Gzip on server for compressing content."
     ]
   }
   ,
@@ -70,14 +73,6 @@ const faq = [
       "Win 100–500 ms by establishing early connections to important third-party origins with preconnect en dns-prefetch.",
       "Use 'Prefetch' to start downloading resources needed for the next page visitors visit. Usefull if you know where visitors go.",
       "Preloaded resource has to be used in about 3 seconds, otherwise there will be an error in the console. A preconnected domain has to be used in 10 seconds otherwise the connection will be closed.",
-    ]
-  },
-   {
-    question: "Server",
-    answer: [
-      "Set Cache rules for static assets.",
-      "Use 'H2' instead of http/1.1. as internet protocol.",
-      "Brotli, Gzip on server for compressing content."
     ]
   },
    {
