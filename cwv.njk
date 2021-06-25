@@ -4,7 +4,7 @@ layout: layout.njk
 
  <div class="px-4 md:px-20">
  <div class="mx-auto text-2xl subpixel-antialiased font-light text-gray-300 "  >
-        <h1>Web vitals</h1>
+        <h1 class="text-4xl">Web vitals</h1>
 
 
  <div class="mt-4 font-normal prose sm:prose lg:prose-lg xl:prose-2xl max-w-prose">
@@ -37,7 +37,12 @@ layout: layout.njk
             <img  class="mt-4" src="/assets/img/cwv.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:16/9" width="601" height="338">
             </div>
 
-
+    <h2 class="font-medium ">Why important?</h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
+            Google started using the 'Page experience' metrics as ranking factor. During the summer of 2021 the update will be rolled out. 
+            Offcourse you don't know how much of a ranking factor it is and will be. Just like all the other factors it is a mystery ;-).
+            Good quality content and links to your pages are probably more important but who knows what will matter in the future.         
+             </div>
 
 
             <h2 class="font-medium ">Other Web Vitals:</h2>
@@ -54,9 +59,22 @@ layout: layout.njk
 
             <h2 class="font-medium ">Score</h2>
             <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
-            Four categories of metrics. In every category the maximum score is 100 points. So a total of 400 is maximum score.
+           There are four categories of metrics. In every category the maximum score is 100 points. So a total of 400 is maximum score.
                 <img class="mt-4" src="/assets/img/lighthouse-elements-scoring.png" alt="Core Web Vitals - Metrics and thresholds" style="aspect-ratio:4/3" width="600" height="450">
             </div> 
+
+
+
+                    <h2 class="font-medium ">About this benchmark</h2>
+            <div class="mt-4 mb-8 text-xl leading-8 text-gray-300">
+           The calculations are made from US based servers. Github / Microsoft Cloud to be exact. I think they are located in the US, but don't know for sure.
+           Every category is updated once a week, at approximately 14.15 UTC (16:15 CET) and deployed at 16.00 UTC (18:00 CET).
+           <br><br>
+           Calculations are made trough an emulated mobile phone on a 4x simulated slowed down internet connection.
+             <br><br>When trying to reproduce the Lighouse score use an incognito browser. Differences between your local scan and this website might occur. 
+             Don't treat every metrics as a hard fact. Look at trend lines and see where the trend is going. Also use it to compare to other urls. 
+             <br><br>The only goal of this website is to offer basic insights and to get you interested in website performance. 
+             </div> 
 
     
 </div>
