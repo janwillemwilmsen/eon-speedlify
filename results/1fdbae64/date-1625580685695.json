@@ -1,0 +1,51 @@
+{
+  "url": "https://e-mobility.ewe.de/",
+  "requestedUrl": "https://e-mobility.ewe.de/",
+  "timestamp": 1625580857156,
+  "ranks": {
+    "hundos": 25,
+    "performance": 4,
+    "accessibility": 14,
+    "cumulative": 25
+  },
+  "lighthouse": {
+    "version": "8.0.0",
+    "performance": 0.49,
+    "accessibility": 0.79,
+    "bestPractices": null,
+    "seo": null,
+    "total": 128
+  },
+  "firstContentfulPaint": 3587.1094999999996,
+  "firstMeaningfulPaint": 4116.228999999999,
+  "speedIndex": 5724.1769780459545,
+  "largestContentfulPaint": 6308.295499999998,
+  "totalBlockingTime": 450.51300000000015,
+  "cumulativeLayoutShift": 0.049290161132812496,
+  "timeToInteractive": 8517.773499999998,
+  "maxPotentialFirstInputDelay": 242,
+  "timeToFirstByte": 248.4029999999999,
+  "weight": {
+    "summary": "41 requests • 953 KiB",
+    "total": 976112,
+    "image": 333291,
+    "imageCount": 9,
+    "script": 421804,
+    "scriptCount": 16,
+    "document": 10575,
+    "font": 45397,
+    "fontCount": 3,
+    "stylesheet": 69710,
+    "stylesheetCount": 4,
+    "thirdParty": 175586,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1771,
+    "violations": 59
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon-italia.com/it.html",
+  "requestedUrl": "https://www.eon-italia.com/",
+  "timestamp": 1625581090589,
+  "ranks": {
+    "hundos": 7,
+    "performance": 6,
+    "accessibility": 2,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.0.0",
+    "performance": 0.39,
+    "accessibility": 0.94,
+    "bestPractices": 0.8,
+    "seo": 0.79,
+    "total": 292
+  },
+  "firstContentfulPaint": 3393.759,
+  "firstMeaningfulPaint": 3393.759,
+  "speedIndex": 5718.053640767989,
+  "largestContentfulPaint": 11138.759,
+  "totalBlockingTime": 224,
+  "cumulativeLayoutShift": 1.3353482937282986,
+  "timeToInteractive": 8143.259,
+  "maxPotentialFirstInputDelay": 148,
+  "timeToFirstByte": 144.73,
+  "weight": {
+    "summary": "60 requests • 1,975 KiB",
+    "total": 2022422,
+    "image": 1267899,
+    "imageCount": 26,
+    "script": 431268,
+    "scriptCount": 14,
+    "document": 20414,
+    "font": 212603,
+    "fontCount": 6,
+    "stylesheet": 89930,
+    "stylesheetCount": 9,
+    "thirdParty": 241154,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 635,
+    "violations": 11
+  }
+}
