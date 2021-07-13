@@ -38,6 +38,7 @@ module.exports = {
 		"https://www.eon.ro/",
 		"https://www.innogy.pl/",
 		"https://www.innogy.sk/",
+		"https://www.powerhouse.nl",
 		// // "https://www.essent.be/",
 		// // "https://www.npower.com/",
 	]
