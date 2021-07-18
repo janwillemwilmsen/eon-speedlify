@@ -1,0 +1,51 @@
+{
+  "url": "https://www.greenchoice.nl/",
+  "requestedUrl": "https://www.greenchoice.nl/",
+  "timestamp": 1626617556775,
+  "ranks": {
+    "hundos": 12,
+    "performance": 12,
+    "accessibility": 6,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.15,
+    "accessibility": 0.86,
+    "bestPractices": 0.87,
+    "seo": 0.86,
+    "total": 274
+  },
+  "firstContentfulPaint": 2985.0240000000003,
+  "firstMeaningfulPaint": 2985.0240000000003,
+  "speedIndex": 8112.690497850204,
+  "largestContentfulPaint": 10472.700999999997,
+  "totalBlockingTime": 1987.9999999999964,
+  "cumulativeLayoutShift": 0.3408794466654459,
+  "timeToInteractive": 16788.243,
+  "maxPotentialFirstInputDelay": 466.99999999999636,
+  "timeToFirstByte": 387.19100000000003,
+  "weight": {
+    "summary": "94 requests • 2,453 KiB",
+    "total": 2511835,
+    "image": 794075,
+    "imageCount": 31,
+    "script": 1220681,
+    "scriptCount": 28,
+    "document": 60614,
+    "font": 316116,
+    "fontCount": 13,
+    "stylesheet": 81389,
+    "stylesheetCount": 5,
+    "thirdParty": 834624,
+    "thirdPartyCount": 52
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1424,
+    "violations": 52
+  }
+}

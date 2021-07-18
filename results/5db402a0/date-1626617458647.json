@@ -1,0 +1,51 @@
+{
+  "url": "https://www.powerpeers.nl/",
+  "requestedUrl": "https://www.powerpeers.nl/",
+  "timestamp": 1626617669822,
+  "ranks": {
+    "hundos": 11,
+    "performance": 9,
+    "accessibility": 8,
+    "cumulative": 11
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.27,
+    "accessibility": 0.83,
+    "bestPractices": 0.73,
+    "seo": 0.93,
+    "total": 276
+  },
+  "firstContentfulPaint": 2796.005,
+  "firstMeaningfulPaint": 4079.101,
+  "speedIndex": 8232.35567460276,
+  "largestContentfulPaint": 9641.056500000002,
+  "totalBlockingTime": 1742,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 18692.982,
+  "maxPotentialFirstInputDelay": 460,
+  "timeToFirstByte": 162.77700000000002,
+  "weight": {
+    "summary": "89 requests • 2,898 KiB",
+    "total": 2967444,
+    "image": 969822,
+    "imageCount": 41,
+    "script": 1526207,
+    "scriptCount": 20,
+    "document": 36437,
+    "font": 260252,
+    "fontCount": 10,
+    "stylesheet": 160454,
+    "stylesheetCount": 3,
+    "thirdParty": 1754687,
+    "thirdPartyCount": 48
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 725,
+    "violations": 50
+  }
+}

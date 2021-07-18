@@ -1,0 +1,51 @@
+{
+  "url": "https://www.easyswitch.nl/",
+  "requestedUrl": "https://www.easyswitch.nl/",
+  "timestamp": 1626617715035,
+  "ranks": {
+    "hundos": 5,
+    "performance": 5,
+    "accessibility": 11,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.54,
+    "accessibility": 0.75,
+    "bestPractices": 0.8,
+    "seo": 0.9,
+    "total": 299
+  },
+  "firstContentfulPaint": 2378.211,
+  "firstMeaningfulPaint": 2378.211,
+  "speedIndex": 4453.079095714706,
+  "largestContentfulPaint": 2378.211,
+  "totalBlockingTime": 3285.000000000001,
+  "cumulativeLayoutShift": 0.0036457564036051432,
+  "timeToInteractive": 15308.161,
+  "maxPotentialFirstInputDelay": 610.0000000000018,
+  "timeToFirstByte": 163.877,
+  "weight": {
+    "summary": "90 requests • 1,915 KiB",
+    "total": 1961157,
+    "image": 465530,
+    "imageCount": 48,
+    "script": 1150707,
+    "scriptCount": 22,
+    "document": 25876,
+    "font": 90396,
+    "fontCount": 3,
+    "stylesheet": 141115,
+    "stylesheetCount": 3,
+    "thirdParty": 908378,
+    "thirdPartyCount": 36
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1347,
+    "violations": 36
+  }
+}
