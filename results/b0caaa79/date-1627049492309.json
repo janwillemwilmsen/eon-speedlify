@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/pk/heizung/waermepumpe.html",
+  "requestedUrl": "https://www.eon.de/de/pk/heizung/waermepumpe.html",
+  "timestamp": 1627049707758,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.05,
+    "accessibility": 0.77,
+    "bestPractices": 0.8,
+    "seo": 0.86,
+    "total": 248
+  },
+  "firstContentfulPaint": 3908.6759999999986,
+  "firstMeaningfulPaint": 3908.6759999999986,
+  "speedIndex": 11007.426338636824,
+  "largestContentfulPaint": 16097.740000000005,
+  "totalBlockingTime": 3363.000000000001,
+  "cumulativeLayoutShift": 0.8756250000000001,
+  "timeToInteractive": 17442.3315,
+  "maxPotentialFirstInputDelay": 598.0000000000018,
+  "timeToFirstByte": 147.094,
+  "weight": {
+    "summary": "205 requests • 1,816 KiB",
+    "total": 1859965,
+    "image": 175521,
+    "imageCount": 13,
+    "script": 935019,
+    "scriptCount": 84,
+    "document": 27726,
+    "font": 490990,
+    "fontCount": 11,
+    "stylesheet": 180019,
+    "stylesheetCount": 12,
+    "thirdParty": 665454,
+    "thirdPartyCount": 144
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2276,
+    "violations": 97
+  }
+}
