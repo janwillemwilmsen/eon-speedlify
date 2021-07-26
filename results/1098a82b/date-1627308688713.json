@@ -1,0 +1,51 @@
+{
+  "url": "https://www.pricewise.nl/",
+  "requestedUrl": "https://www.pricewise.nl/",
+  "timestamp": 1627308799576,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 3,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.76,
+    "accessibility": 0.91,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 367
+  },
+  "firstContentfulPaint": 1487.2099999999998,
+  "firstMeaningfulPaint": 1519.2099999999998,
+  "speedIndex": 2487.857381851569,
+  "largestContentfulPaint": 1487.2099999999998,
+  "totalBlockingTime": 943.0000000000002,
+  "cumulativeLayoutShift": 0.0058091634114583336,
+  "timeToInteractive": 5074.84,
+  "maxPotentialFirstInputDelay": 271,
+  "timeToFirstByte": 105.709,
+  "weight": {
+    "summary": "21 requests • 329 KiB",
+    "total": 336776,
+    "image": 26926,
+    "imageCount": 5,
+    "script": 152496,
+    "scriptCount": 5,
+    "document": 54320,
+    "font": 101759,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 153433,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1369,
+    "violations": 32
+  }
+}
