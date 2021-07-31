@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/policies/energy-efficiency",
+  "requestedUrl": "https://www.eonnext.com/policies/energy-efficiency",
+  "timestamp": 1627741009728,
+  "ranks": {
+    "hundos": 2,
+    "performance": 1,
+    "accessibility": 6,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.33,
+    "accessibility": 0.94,
+    "bestPractices": 1,
+    "seo": 0.86,
+    "total": 313
+  },
+  "firstContentfulPaint": 2478.023,
+  "firstMeaningfulPaint": 5860.5625,
+  "speedIndex": 5729.331438346821,
+  "largestContentfulPaint": 10081.882000000001,
+  "totalBlockingTime": 1376,
+  "cumulativeLayoutShift": 0.11101752471923827,
+  "timeToInteractive": 10694.382,
+  "maxPotentialFirstInputDelay": 631,
+  "timeToFirstByte": 646.173,
+  "weight": {
+    "summary": "57 requests • 1,010 KiB",
+    "total": 1034078,
+    "image": 7833,
+    "imageCount": 7,
+    "script": 787450,
+    "scriptCount": 21,
+    "document": 34268,
+    "font": 161167,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 428830,
+    "thirdPartyCount": 43
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1342,
+    "violations": 35
+  }
+}

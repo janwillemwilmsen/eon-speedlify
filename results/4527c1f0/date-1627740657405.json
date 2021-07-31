@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/pk/solar/solaranlage-kaufen.html",
+  "requestedUrl": "https://www.eon.de/de/pk/solar/solaranlage-kaufen.html",
+  "timestamp": 1627740700575,
+  "ranks": {
+    "hundos": 2,
+    "performance": 6,
+    "accessibility": 4,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.03,
+    "accessibility": 0.73,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 249
+  },
+  "firstContentfulPaint": 4134.487,
+  "firstMeaningfulPaint": 4134.487,
+  "speedIndex": 13364.895030030992,
+  "largestContentfulPaint": 20698.483999999997,
+  "totalBlockingTime": 5558.222000000003,
+  "cumulativeLayoutShift": 0.815625,
+  "timeToInteractive": 22896.274999999994,
+  "maxPotentialFirstInputDelay": 1652,
+  "timeToFirstByte": 148.21299999999997,
+  "weight": {
+    "summary": "266 requests • 2,909 KiB",
+    "total": 2978830,
+    "image": 539111,
+    "imageCount": 22,
+    "script": 1593302,
+    "scriptCount": 100,
+    "document": 84130,
+    "font": 478579,
+    "fontCount": 12,
+    "stylesheet": 226096,
+    "stylesheetCount": 14,
+    "thirdParty": 1567564,
+    "thirdPartyCount": 200
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 3856,
+    "violations": 202
+  }
+}
