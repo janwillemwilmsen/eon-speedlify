@@ -1,0 +1,51 @@
+{
+  "url": "https://www.engie.nl/",
+  "requestedUrl": "https://www.engie.nl/",
+  "timestamp": 1628000080325,
+  "ranks": {
+    "hundos": 6,
+    "performance": 3,
+    "accessibility": 14,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.1.0",
+    "performance": 0.58,
+    "accessibility": 0.67,
+    "bestPractices": 0.8,
+    "seo": 0.99,
+    "total": 304
+  },
+  "firstContentfulPaint": 1677.3200000000004,
+  "firstMeaningfulPaint": 1677.3200000000004,
+  "speedIndex": 7357.615626072189,
+  "largestContentfulPaint": 2690.6150000000007,
+  "totalBlockingTime": 1343.999999999999,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 8458.943,
+  "maxPotentialFirstInputDelay": 379.9999999999991,
+  "timeToFirstByte": 833.857,
+  "weight": {
+    "summary": "61 requests • 1,304 KiB",
+    "total": 1335683,
+    "image": 618717,
+    "imageCount": 22,
+    "script": 565587,
+    "scriptCount": 28,
+    "document": 71014,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 62404,
+    "stylesheetCount": 1,
+    "thirdParty": 312223,
+    "thirdPartyCount": 15
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1236,
+    "violations": 76
+  }
+}
