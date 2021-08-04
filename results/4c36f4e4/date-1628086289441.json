@@ -1,0 +1,4 @@
+{
+  "url": "https://www.energiewonen.nl/",
+  "error": "{\"code\":\"MODULE_NOT_FOUND\",\"requireStack\":[\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/lighthouse/lighthouse-core/lib/csp-evaluator.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/lighthouse/lighthouse-core/audits/csp-xss.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/lighthouse/lighthouse-core/config/config-helpers.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/lighthouse/lighthouse-core/config/config.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/lighthouse/lighthouse-core/index.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/node_modules/performance-leaderboard/performance-leaderboard.js\",\"/home/runner/work/eon-speedlify/eon-speedlify/default/run-tests.js\"]}"
+}
