@@ -1,0 +1,51 @@
+{
+  "url": "https://www.greenpeace-energy.de/",
+  "requestedUrl": "https://www.greenpeace-energy.de/",
+  "timestamp": 1628172919401,
+  "ranks": {
+    "hundos": 8,
+    "performance": 8,
+    "accessibility": 9,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.2.0",
+    "performance": 0.38,
+    "accessibility": 0.71,
+    "bestPractices": 0.8,
+    "seo": 0.91,
+    "total": 280
+  },
+  "firstContentfulPaint": 3018.719,
+  "firstMeaningfulPaint": 3018.719,
+  "speedIndex": 5545.307187897275,
+  "largestContentfulPaint": 6545.700000000001,
+  "totalBlockingTime": 932.5000000000011,
+  "cumulativeLayoutShift": 0.09965184879302978,
+  "timeToInteractive": 9528.843500000003,
+  "maxPotentialFirstInputDelay": 579.0000000000009,
+  "timeToFirstByte": 126.68299999999999,
+  "weight": {
+    "summary": "58 requests • 1,098 KiB",
+    "total": 1124439,
+    "image": 297232,
+    "imageCount": 27,
+    "script": 459965,
+    "scriptCount": 18,
+    "document": 28577,
+    "font": 292796,
+    "fontCount": 6,
+    "stylesheet": 34748,
+    "stylesheetCount": 2,
+    "thirdParty": 360683,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1737,
+    "violations": 152
+  }
+}
