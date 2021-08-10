@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/energie/goedkope-energie",
+  "requestedUrl": "https://www.energiedirect.nl/energie/goedkope-energie",
+  "timestamp": 1628604783455,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.2.0",
+    "performance": 0.3,
+    "accessibility": 0.78,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 281
+  },
+  "firstContentfulPaint": 3235.496,
+  "firstMeaningfulPaint": 3644.237,
+  "speedIndex": 8527.781892703159,
+  "largestContentfulPaint": 6807.152,
+  "totalBlockingTime": 722.9725000000003,
+  "cumulativeLayoutShift": 0.22430224329369503,
+  "timeToInteractive": 12962.754999999997,
+  "maxPotentialFirstInputDelay": 235,
+  "timeToFirstByte": 393.221,
+  "weight": {
+    "summary": "47 requests • 1,410 KiB",
+    "total": 1444100,
+    "image": 277083,
+    "imageCount": 12,
+    "script": 926348,
+    "scriptCount": 15,
+    "document": 39332,
+    "font": 121399,
+    "fontCount": 5,
+    "stylesheet": 73853,
+    "stylesheetCount": 5,
+    "thirdParty": 301431,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 747,
+    "violations": 64
+  }
+}
