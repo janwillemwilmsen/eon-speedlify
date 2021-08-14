@@ -1,0 +1,51 @@
+{
+  "url": "https://www.enviam.de/",
+  "requestedUrl": "https://www.enviam.de/",
+  "timestamp": 1628950421219,
+  "ranks": {
+    "hundos": 11,
+    "performance": 8,
+    "accessibility": 25,
+    "cumulative": 11
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.43,
+    "accessibility": 0.59,
+    "bestPractices": 0.8,
+    "seo": 1,
+    "total": 282
+  },
+  "firstContentfulPaint": 2166.1920000000005,
+  "firstMeaningfulPaint": 3072.080000000001,
+  "speedIndex": 5669.790534976555,
+  "largestContentfulPaint": 4197.468000000001,
+  "totalBlockingTime": 679.9999999999998,
+  "cumulativeLayoutShift": 0.7120094219843546,
+  "timeToInteractive": 8460.534000000001,
+  "maxPotentialFirstInputDelay": 215,
+  "timeToFirstByte": 268.95599999999996,
+  "weight": {
+    "summary": "59 requests • 925 KiB",
+    "total": 947023,
+    "image": 47324,
+    "imageCount": 3,
+    "script": 617712,
+    "scriptCount": 31,
+    "document": 41471,
+    "font": 147177,
+    "fontCount": 3,
+    "stylesheet": 84854,
+    "stylesheetCount": 10,
+    "thirdParty": 89952,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2377,
+    "violations": 275
+  }
+}
