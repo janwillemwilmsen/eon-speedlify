@@ -1,0 +1,51 @@
+{
+  "url": "https://www.nle.nl/",
+  "requestedUrl": "https://www.nle.nl/",
+  "timestamp": 1629382472232,
+  "ranks": {
+    "hundos": 8,
+    "performance": 9,
+    "accessibility": 10,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.29,
+    "accessibility": 0.77,
+    "bestPractices": 0.87,
+    "seo": 0.92,
+    "total": 285
+  },
+  "firstContentfulPaint": 6849.361,
+  "firstMeaningfulPaint": 7778.928000000002,
+  "speedIndex": 10745.082715373312,
+  "largestContentfulPaint": 12927.989500000005,
+  "totalBlockingTime": 745.4539999999997,
+  "cumulativeLayoutShift": 0.001960285186767578,
+  "timeToInteractive": 12764.1425,
+  "maxPotentialFirstInputDelay": 428,
+  "timeToFirstByte": 198.50599999999997,
+  "weight": {
+    "summary": "51 requests • 1,447 KiB",
+    "total": 1481391,
+    "image": 81460,
+    "imageCount": 5,
+    "script": 1165610,
+    "scriptCount": 29,
+    "document": 9911,
+    "font": 181197,
+    "fontCount": 5,
+    "stylesheet": 41415,
+    "stylesheetCount": 4,
+    "thirdParty": 767131,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 448,
+    "violations": 63
+  }
+}
