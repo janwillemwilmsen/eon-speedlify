@@ -1,0 +1,51 @@
+{
+  "url": "https://www.elli.eco/de/startseite",
+  "requestedUrl": "https://www.elli.eco/",
+  "timestamp": 1629555275366,
+  "ranks": {
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.69,
+    "accessibility": 0.9,
+    "bestPractices": 0.87,
+    "seo": 0.96,
+    "total": 342
+  },
+  "firstContentfulPaint": 3419.5965,
+  "firstMeaningfulPaint": 3570.0245000000004,
+  "speedIndex": 3419.5965,
+  "largestContentfulPaint": 5438.6535,
+  "totalBlockingTime": 141.42850000000044,
+  "cumulativeLayoutShift": 0.00008680555555555556,
+  "timeToInteractive": 5333.582,
+  "maxPotentialFirstInputDelay": 267,
+  "timeToFirstByte": 39.051,
+  "weight": {
+    "summary": "79 requests • 20,278 KiB",
+    "total": 20764923,
+    "image": 651167,
+    "imageCount": 31,
+    "script": 335506,
+    "scriptCount": 8,
+    "document": 18678,
+    "font": 95328,
+    "fontCount": 18,
+    "stylesheet": 61746,
+    "stylesheetCount": 4,
+    "thirdParty": 20745776,
+    "thirdPartyCount": 75
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 570,
+    "violations": 45
+  }
+}
