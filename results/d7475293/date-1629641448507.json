@@ -1,0 +1,51 @@
+{
+  "url": "https://elmuemasz.hu/egyetemes-szolgaltatas",
+  "requestedUrl": "https://elmuemasz.hu/",
+  "timestamp": 1629641835036,
+  "ranks": {
+    "hundos": 9,
+    "performance": 9,
+    "accessibility": 4,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.38,
+    "accessibility": 0.87,
+    "bestPractices": 0.73,
+    "seo": 0.88,
+    "total": 286
+  },
+  "firstContentfulPaint": 5094.4635,
+  "firstMeaningfulPaint": 6783.6179999999995,
+  "speedIndex": 6957.148706790513,
+  "largestContentfulPaint": 13125.365999999998,
+  "totalBlockingTime": 182.50000000000045,
+  "cumulativeLayoutShift": 0.7219274224175348,
+  "timeToInteractive": 6895.8375,
+  "maxPotentialFirstInputDelay": 164.00000000000045,
+  "timeToFirstByte": 278.663,
+  "weight": {
+    "summary": "49 requests • 3,819 KiB",
+    "total": 3910801,
+    "image": 3167699,
+    "imageCount": 18,
+    "script": 388577,
+    "scriptCount": 15,
+    "document": 26784,
+    "font": 173810,
+    "fontCount": 3,
+    "stylesheet": 151663,
+    "stylesheetCount": 7,
+    "thirdParty": 62534,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1281,
+    "violations": 30
+  }
+}
