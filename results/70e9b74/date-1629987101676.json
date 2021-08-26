@@ -1,0 +1,51 @@
+{
+  "url": "https://vandebron.nl/klantenservice",
+  "requestedUrl": "https://vandebron.nl/klantenservice",
+  "timestamp": 1629987316757,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.32,
+    "accessibility": 0.83,
+    "bestPractices": 0.87,
+    "seo": 0.92,
+    "total": 294
+  },
+  "firstContentfulPaint": 2950.953,
+  "firstMeaningfulPaint": 2950.953,
+  "speedIndex": 7366.394306220145,
+  "largestContentfulPaint": 2950.953,
+  "totalBlockingTime": 2455,
+  "cumulativeLayoutShift": 0.573209810698284,
+  "timeToInteractive": 14560.024,
+  "maxPotentialFirstInputDelay": 1191,
+  "timeToFirstByte": 359.01399999999995,
+  "weight": {
+    "summary": "63 requests • 1,347 KiB",
+    "total": 1379424,
+    "image": 771,
+    "imageCount": 4,
+    "script": 965277,
+    "scriptCount": 17,
+    "document": 134146,
+    "font": 158883,
+    "fontCount": 8,
+    "stylesheet": 89593,
+    "stylesheetCount": 11,
+    "thirdParty": 1253889,
+    "thirdPartyCount": 57
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 778,
+    "violations": 54
+  }
+}
