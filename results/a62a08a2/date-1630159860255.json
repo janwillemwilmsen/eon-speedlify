@@ -1,0 +1,51 @@
+{
+  "url": "https://www.ewacht.nl/",
+  "requestedUrl": "https://www.ewacht.nl/",
+  "timestamp": 1630159899627,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 9,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.65,
+    "accessibility": 0.45,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 282
+  },
+  "firstContentfulPaint": 3262.918,
+  "firstMeaningfulPaint": 3565.6439999999993,
+  "speedIndex": 4362.737852738433,
+  "largestContentfulPaint": 4863.643999999998,
+  "totalBlockingTime": 137,
+  "cumulativeLayoutShift": 0.1783338149388631,
+  "timeToInteractive": 5768.643999999999,
+  "maxPotentialFirstInputDelay": 159,
+  "timeToFirstByte": 470.20399999999995,
+  "weight": {
+    "summary": "85 requests • 1,445 KiB",
+    "total": 1479206,
+    "image": 1026287,
+    "imageCount": 33,
+    "script": 266943,
+    "scriptCount": 23,
+    "document": 13641,
+    "font": 110825,
+    "fontCount": 4,
+    "stylesheet": 61510,
+    "stylesheetCount": 24,
+    "thirdParty": 232882,
+    "thirdPartyCount": 14
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1327,
+    "violations": 106
+  }
+}
