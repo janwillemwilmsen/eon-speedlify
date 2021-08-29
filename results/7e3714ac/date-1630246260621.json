@@ -1,0 +1,51 @@
+{
+  "url": "https://www.gruenwelt.de/",
+  "requestedUrl": "https://www.gruenwelt.de/",
+  "timestamp": 1630246409950,
+  "ranks": {
+    "hundos": 5,
+    "performance": 7,
+    "accessibility": 5,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.46,
+    "accessibility": 0.81,
+    "bestPractices": 0.87,
+    "seo": 0.92,
+    "total": 306
+  },
+  "firstContentfulPaint": 3614.514,
+  "firstMeaningfulPaint": 4800.555,
+  "speedIndex": 6166.93140337142,
+  "largestContentfulPaint": 8230.6505,
+  "totalBlockingTime": 326,
+  "cumulativeLayoutShift": 0.16102256774902346,
+  "timeToInteractive": 8589.091500000002,
+  "maxPotentialFirstInputDelay": 219,
+  "timeToFirstByte": 303.20000000000005,
+  "weight": {
+    "summary": "52 requests • 2,397 KiB",
+    "total": 2454026,
+    "image": 1310767,
+    "imageCount": 16,
+    "script": 653836,
+    "scriptCount": 12,
+    "document": 73298,
+    "font": 160869,
+    "fontCount": 4,
+    "stylesheet": 239193,
+    "stylesheetCount": 4,
+    "thirdParty": 294056,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 928,
+    "violations": 18
+  }
+}
