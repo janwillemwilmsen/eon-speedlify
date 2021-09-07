@@ -1,0 +1,51 @@
+{
+  "url": "https://elmuemasz.hu/versenypiaci-szolgaltatas",
+  "requestedUrl": "https://elmuemasz.hu/",
+  "timestamp": 1631024328797,
+  "ranks": {
+    "hundos": 7,
+    "performance": 4,
+    "accessibility": 10,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.5,
+    "accessibility": 0.81,
+    "bestPractices": 0.73,
+    "seo": 0.88,
+    "total": 292
+  },
+  "firstContentfulPaint": 5000.492000000001,
+  "firstMeaningfulPaint": 6069.752000000002,
+  "speedIndex": 8250.979326550503,
+  "largestContentfulPaint": 7228.560000000003,
+  "totalBlockingTime": 122,
+  "cumulativeLayoutShift": 0.17708794487847224,
+  "timeToInteractive": 6420.800000000001,
+  "maxPotentialFirstInputDelay": 142.5,
+  "timeToFirstByte": 401.687,
+  "weight": {
+    "summary": "45 requests • 4,337 KiB",
+    "total": 4441192,
+    "image": 3703342,
+    "imageCount": 14,
+    "script": 388678,
+    "scriptCount": 15,
+    "document": 21435,
+    "font": 173810,
+    "fontCount": 3,
+    "stylesheet": 151656,
+    "stylesheetCount": 7,
+    "thirdParty": 62628,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 918,
+    "violations": 32
+  }
+}

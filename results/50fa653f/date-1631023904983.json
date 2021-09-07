@@ -1,0 +1,51 @@
+{
+  "url": "https://www.lew.de/fuer-zuhause",
+  "requestedUrl": "https://www.lew.de/",
+  "timestamp": 1631024125441,
+  "ranks": {
+    "hundos": 6,
+    "performance": 11,
+    "accessibility": 17,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.29,
+    "accessibility": 0.75,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 296
+  },
+  "firstContentfulPaint": 2967.901,
+  "firstMeaningfulPaint": 3011.901,
+  "speedIndex": 7698.975583700267,
+  "largestContentfulPaint": 9886.8225,
+  "totalBlockingTime": 1639,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9633.748000000001,
+  "maxPotentialFirstInputDelay": 307,
+  "timeToFirstByte": 297.251,
+  "weight": {
+    "summary": "128 requests • 950 KiB",
+    "total": 972853,
+    "image": 47704,
+    "imageCount": 4,
+    "script": 632262,
+    "scriptCount": 72,
+    "document": 24991,
+    "font": 137423,
+    "fontCount": 3,
+    "stylesheet": 106007,
+    "stylesheetCount": 20,
+    "thirdParty": 310189,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2085,
+    "violations": 38
+  }
+}

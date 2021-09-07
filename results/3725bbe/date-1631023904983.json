@@ -1,0 +1,51 @@
+{
+  "url": "https://vandebron.nl/",
+  "requestedUrl": "https://www.vandebron.nl/",
+  "timestamp": 1631023998697,
+  "ranks": {
+    "hundos": 13,
+    "performance": 22,
+    "accessibility": 6,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.1,
+    "accessibility": 0.84,
+    "bestPractices": 0.87,
+    "seo": 0.93,
+    "total": 274
+  },
+  "firstContentfulPaint": 3646.719,
+  "firstMeaningfulPaint": 3646.719,
+  "speedIndex": 12070.23634723408,
+  "largestContentfulPaint": 15613.172,
+  "totalBlockingTime": 1753.1275000000014,
+  "cumulativeLayoutShift": 0.5034934700859918,
+  "timeToInteractive": 15940.884500000002,
+  "maxPotentialFirstInputDelay": 924,
+  "timeToFirstByte": 1058.672,
+  "weight": {
+    "summary": "50 requests • 1,553 KiB",
+    "total": 1590128,
+    "image": 312188,
+    "imageCount": 5,
+    "script": 945767,
+    "scriptCount": 17,
+    "document": 50571,
+    "font": 132554,
+    "fontCount": 5,
+    "stylesheet": 90617,
+    "stylesheetCount": 8,
+    "thirdParty": 1485397,
+    "thirdPartyCount": 42
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 978,
+    "violations": 52
+  }
+}

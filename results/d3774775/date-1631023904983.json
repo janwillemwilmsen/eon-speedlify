@@ -1,0 +1,50 @@
+{
+  "url": "https://www.eon.cz/domacnosti/",
+  "requestedUrl": "https://www.eon.cz/",
+  "timestamp": 1631024340804,
+  "ranks": {
+    "hundos": 1,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.3.0",
+    "performance": 0.59,
+    "accessibility": 0.96,
+    "bestPractices": 0.87,
+    "seo": 1,
+    "total": 342
+  },
+  "firstContentfulPaint": 2827.559,
+  "firstMeaningfulPaint": 2827.559,
+  "speedIndex": 6037.852466000006,
+  "largestContentfulPaint": 6494.986999999998,
+  "totalBlockingTime": 146,
+  "cumulativeLayoutShift": 0.14425086551242414,
+  "timeToInteractive": 5894.042999999999,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 259.757,
+  "weight": {
+    "summary": "25 requests • 797 KiB",
+    "total": 815867,
+    "image": 193363,
+    "imageCount": 4,
+    "script": 296293,
+    "scriptCount": 10,
+    "document": 23442,
+    "font": 72035,
+    "fontCount": 4,
+    "stylesheet": 116774,
+    "stylesheetCount": 3,
+    "thirdParty": 650857,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
