@@ -1,4 +1,9 @@
 
+nieuwe categorie:
+dan Workflow file aanpassen. uitcommentarieren OnPush 
+Werkte iig na verwijderen van alle Run Tests workflows
+Had ook de workflow file naam aangepast. 
+
 
 design changes.
 install PWA
