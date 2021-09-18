@@ -3,7 +3,8 @@ module.exports = {
 	description: "Elek en Gas funnels",
 	options: {
 		// frequency: 1 * 10, 
-		frequency: 60 * 168, 
+		// frequency: 60 * 168, 
+		frequency: 60 * 24, 
 		// 24 hours
 		freshChrome: "run", // verschillende sites is RUN
 	},
