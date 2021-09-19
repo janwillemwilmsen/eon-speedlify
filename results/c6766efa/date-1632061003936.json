@@ -1,0 +1,51 @@
+{
+  "url": "https://welkom-energie.nl/",
+  "requestedUrl": "https://welkom-energie.nl/",
+  "timestamp": 1632061453219,
+  "ranks": {
+    "hundos": 6,
+    "performance": 10,
+    "accessibility": 2,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.4.0",
+    "performance": 0.25,
+    "accessibility": 0.94,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 291
+  },
+  "firstContentfulPaint": 6933.398,
+  "firstMeaningfulPaint": 6933.398,
+  "speedIndex": 17100.084880040227,
+  "largestContentfulPaint": 20249.672,
+  "totalBlockingTime": 817.5,
+  "cumulativeLayoutShift": 0.09069609557257757,
+  "timeToInteractive": 22523.7315,
+  "maxPotentialFirstInputDelay": 359,
+  "timeToFirstByte": 2248.6310000000003,
+  "weight": {
+    "summary": "118 requests • 2,209 KiB",
+    "total": 2261559,
+    "image": 420000,
+    "imageCount": 17,
+    "script": 1130009,
+    "scriptCount": 53,
+    "document": 24456,
+    "font": 489451,
+    "fontCount": 8,
+    "stylesheet": 173254,
+    "stylesheetCount": 31,
+    "thirdParty": 901519,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 780,
+    "violations": 68
+  }
+}
