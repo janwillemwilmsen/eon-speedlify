@@ -1,0 +1,51 @@
+{
+  "url": "https://www.ele.de/de.html",
+  "requestedUrl": "https://www.ele.de/",
+  "timestamp": 1632667048106,
+  "ranks": {
+    "hundos": 24,
+    "performance": 25,
+    "accessibility": 15,
+    "cumulative": 24
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.04,
+    "accessibility": 0.79,
+    "bestPractices": 0.73,
+    "seo": 0.79,
+    "total": 235
+  },
+  "firstContentfulPaint": 6144.138999999999,
+  "firstMeaningfulPaint": 6144.138999999999,
+  "speedIndex": 13908.778193452932,
+  "largestContentfulPaint": 10051.197999999997,
+  "totalBlockingTime": 3443.302000000002,
+  "cumulativeLayoutShift": 0.5331573486328125,
+  "timeToInteractive": 20713.826,
+  "maxPotentialFirstInputDelay": 1563.9999999999995,
+  "timeToFirstByte": 147.303,
+  "weight": {
+    "summary": "82 requests • 3,337 KiB",
+    "total": 3416767,
+    "image": 1370281,
+    "imageCount": 19,
+    "script": 1706504,
+    "scriptCount": 23,
+    "document": 36118,
+    "font": 130016,
+    "fontCount": 4,
+    "stylesheet": 128115,
+    "stylesheetCount": 10,
+    "thirdParty": 447634,
+    "thirdPartyCount": 37
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1089,
+    "violations": 46
+  }
+}

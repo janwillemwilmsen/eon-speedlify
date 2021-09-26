@@ -1,0 +1,50 @@
+{
+  "url": "https://www.vattenfall.de/",
+  "requestedUrl": "https://www.vattenfall.de/",
+  "timestamp": 1632670213078,
+  "ranks": {
+    "hundos": 8,
+    "performance": 7,
+    "accessibility": 10,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.34,
+    "accessibility": 0.67,
+    "bestPractices": 0.8,
+    "seo": 0.95,
+    "total": 276
+  },
+  "firstContentfulPaint": 2464.256,
+  "firstMeaningfulPaint": 2464.256,
+  "speedIndex": 6487.719544115967,
+  "largestContentfulPaint": 11527.1645,
+  "totalBlockingTime": 1188,
+  "cumulativeLayoutShift": 0.05481888834635416,
+  "timeToInteractive": 11832.256,
+  "maxPotentialFirstInputDelay": 351,
+  "timeToFirstByte": 297.278,
+  "weight": {
+    "summary": "41 requests • 1,957 KiB",
+    "total": 2004106,
+    "image": 842294,
+    "imageCount": 8,
+    "script": 872414,
+    "scriptCount": 11,
+    "document": 13368,
+    "font": 155286,
+    "fontCount": 5,
+    "stylesheet": 108170,
+    "stylesheetCount": 5,
+    "thirdParty": 83776,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
