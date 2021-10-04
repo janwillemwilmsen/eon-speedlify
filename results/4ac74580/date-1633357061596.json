@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/dashboard/journey/quote",
+  "requestedUrl": "https://www.eonnext.com/dashboard/journey/quote",
+  "timestamp": 1633359159624,
+  "ranks": {
+    "hundos": 5,
+    "performance": 7,
+    "accessibility": 3,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.08,
+    "accessibility": 0.94,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 274
+  },
+  "firstContentfulPaint": 8465.601,
+  "firstMeaningfulPaint": 9382.6675,
+  "speedIndex": 8628.300137129745,
+  "largestContentfulPaint": 14041.232999999998,
+  "totalBlockingTime": 2319,
+  "cumulativeLayoutShift": 0.4080345764160156,
+  "timeToInteractive": 14266.233,
+  "maxPotentialFirstInputDelay": 1510,
+  "timeToFirstByte": 24.28,
+  "weight": {
+    "summary": "99 requests • 1,467 KiB",
+    "total": 1502158,
+    "image": 6954,
+    "imageCount": 30,
+    "script": 1336399,
+    "scriptCount": 25,
+    "document": 5661,
+    "font": 118213,
+    "fontCount": 3,
+    "stylesheet": 21362,
+    "stylesheetCount": 3,
+    "thirdParty": 592897,
+    "thirdPartyCount": 89
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 621,
+    "violations": 5
+  }
+}
