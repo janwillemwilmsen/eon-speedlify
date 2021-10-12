@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.dk/privat.html",
+  "requestedUrl": "https://www.eon.dk/",
+  "timestamp": 1634049664078,
+  "ranks": {
+    "hundos": 10,
+    "performance": 10,
+    "accessibility": 14,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.32,
+    "accessibility": 0.8,
+    "bestPractices": 0.87,
+    "seo": 0.85,
+    "total": 284
+  },
+  "firstContentfulPaint": 5043.453,
+  "firstMeaningfulPaint": 5672.835000000001,
+  "speedIndex": 8347.10465761335,
+  "largestContentfulPaint": 19158.93,
+  "totalBlockingTime": 660.0000000000009,
+  "cumulativeLayoutShift": 0.08345886230468749,
+  "timeToInteractive": 12983.419000000002,
+  "maxPotentialFirstInputDelay": 240,
+  "timeToFirstByte": 173.535,
+  "weight": {
+    "summary": "55 requests • 4,547 KiB",
+    "total": 4656401,
+    "image": 3510853,
+    "imageCount": 10,
+    "script": 706211,
+    "scriptCount": 16,
+    "document": 120712,
+    "font": 227742,
+    "fontCount": 5,
+    "stylesheet": 67908,
+    "stylesheetCount": 5,
+    "thirdParty": 507546,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1059,
+    "violations": 33
+  }
+}

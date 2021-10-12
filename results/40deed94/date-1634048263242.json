@@ -1,0 +1,51 @@
+{
+  "url": "https://www.billig-will-ich.de/",
+  "requestedUrl": "https://www.billig-will-ich.de/",
+  "timestamp": 1634052635217,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 7,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.71,
+    "accessibility": 0.77,
+    "bestPractices": 0.87,
+    "seo": 0.77,
+    "total": 312
+  },
+  "firstContentfulPaint": 1103.233,
+  "firstMeaningfulPaint": 1103.233,
+  "speedIndex": 4168.448583396586,
+  "largestContentfulPaint": 1103.233,
+  "totalBlockingTime": 704,
+  "cumulativeLayoutShift": 0.2709176898532444,
+  "timeToInteractive": 4627.233,
+  "maxPotentialFirstInputDelay": 724,
+  "timeToFirstByte": 571.005,
+  "weight": {
+    "summary": "39 requests • 702 KiB",
+    "total": 719092,
+    "image": 14813,
+    "imageCount": 11,
+    "script": 356822,
+    "scriptCount": 20,
+    "document": 67415,
+    "font": 267665,
+    "fontCount": 3,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1079,
+    "violations": 53
+  }
+}

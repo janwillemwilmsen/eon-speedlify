@@ -1,0 +1,50 @@
+{
+  "url": "https://vandebron.nl/energie-berekenen",
+  "requestedUrl": "https://vandebron.nl/energie-berekenen",
+  "timestamp": 1634051225103,
+  "ranks": {
+    "hundos": 2,
+    "performance": 1,
+    "accessibility": 3,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.38,
+    "accessibility": 0.89,
+    "bestPractices": 0.93,
+    "seo": 0.99,
+    "total": 319
+  },
+  "firstContentfulPaint": 2647.33,
+  "firstMeaningfulPaint": 2647.33,
+  "speedIndex": 7676.858319567413,
+  "largestContentfulPaint": 2647.33,
+  "totalBlockingTime": 2102.4255000000003,
+  "cumulativeLayoutShift": 0.38242896080017086,
+  "timeToInteractive": 13223.366499999996,
+  "maxPotentialFirstInputDelay": 921,
+  "timeToFirstByte": 169.56600000000003,
+  "weight": {
+    "summary": "54 requests • 1,288 KiB",
+    "total": 1318403,
+    "image": 936,
+    "imageCount": 7,
+    "script": 941556,
+    "scriptCount": 15,
+    "document": 18192,
+    "font": 187899,
+    "fontCount": 7,
+    "stylesheet": 88418,
+    "stylesheetCount": 6,
+    "thirdParty": 1245726,
+    "thirdPartyCount": 47
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}
