@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/beta/calculate",
+  "requestedUrl": "https://www.energiedirect.nl/beta/calculate",
+  "timestamp": 1634566706888,
+  "ranks": {
+    "hundos": 6,
+    "performance": 4,
+    "accessibility": 5,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.36,
+    "accessibility": 0.88,
+    "bestPractices": 0.87,
+    "seo": 0.77,
+    "total": 288
+  },
+  "firstContentfulPaint": 1733.364,
+  "firstMeaningfulPaint": 1876.2020000000002,
+  "speedIndex": 4640.057467940853,
+  "largestContentfulPaint": 8113.532000000001,
+  "totalBlockingTime": 1951.999999999999,
+  "cumulativeLayoutShift": 0.04331523895263672,
+  "timeToInteractive": 12129.388499999997,
+  "maxPotentialFirstInputDelay": 1237.999999999999,
+  "timeToFirstByte": 897.411,
+  "weight": {
+    "summary": "52 requests • 1,020 KiB",
+    "total": 1044114,
+    "image": 45808,
+    "imageCount": 7,
+    "script": 825106,
+    "scriptCount": 24,
+    "document": 42967,
+    "font": 78865,
+    "fontCount": 6,
+    "stylesheet": 18900,
+    "stylesheetCount": 2,
+    "thirdParty": 436049,
+    "thirdPartyCount": 31
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 375,
+    "violations": 42
+  }
+}
