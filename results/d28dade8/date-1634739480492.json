@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/business",
+  "requestedUrl": "https://www.eonnext.com/business",
+  "timestamp": 1634741554271,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 7,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.58,
+    "accessibility": 0.78,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 329
+  },
+  "firstContentfulPaint": 2156.471,
+  "firstMeaningfulPaint": 4916.143000000001,
+  "speedIndex": 4038.5183450490704,
+  "largestContentfulPaint": 5516.959,
+  "totalBlockingTime": 528.3979999999997,
+  "cumulativeLayoutShift": 0.05342210557725695,
+  "timeToInteractive": 6990.5275,
+  "maxPotentialFirstInputDelay": 321,
+  "timeToFirstByte": 65.21699999999998,
+  "weight": {
+    "summary": "47 requests • 798 KiB",
+    "total": 817557,
+    "image": 19123,
+    "imageCount": 5,
+    "script": 558003,
+    "scriptCount": 14,
+    "document": 34155,
+    "font": 161138,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 170988,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 861,
+    "violations": 17
+  }
+}

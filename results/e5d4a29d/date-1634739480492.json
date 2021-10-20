@@ -1,0 +1,51 @@
+{
+  "url": "https://vandebron.nl/energiebronnen",
+  "requestedUrl": "https://vandebron.nl/energiebronnen",
+  "timestamp": 1634742406443,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 2,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.13,
+    "accessibility": 0.9,
+    "bestPractices": null,
+    "seo": 1,
+    "total": 203
+  },
+  "firstContentfulPaint": 4792.353999999999,
+  "firstMeaningfulPaint": 4792.353999999999,
+  "speedIndex": 17397.384190008896,
+  "largestContentfulPaint": 4792.353999999999,
+  "totalBlockingTime": 5723.498999999998,
+  "cumulativeLayoutShift": 0.38012134552001947,
+  "timeToInteractive": 20214.192999999992,
+  "maxPotentialFirstInputDelay": 1924.9999999999982,
+  "timeToFirstByte": 2165.508,
+  "weight": {
+    "summary": "83 requests • 2,101 KiB",
+    "total": 2151714,
+    "image": 92986,
+    "imageCount": 17,
+    "script": 1343178,
+    "scriptCount": 30,
+    "document": 418568,
+    "font": 180518,
+    "fontCount": 12,
+    "stylesheet": 89173,
+    "stylesheetCount": 7,
+    "thirdParty": 1733573,
+    "thirdPartyCount": 77
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 12612,
+    "violations": 736
+  }
+}

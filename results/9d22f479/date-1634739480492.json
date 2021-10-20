@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/energie/energie-aanbiedingen",
+  "requestedUrl": "https://www.energiedirect.nl/energie/energie-aanbiedingen",
+  "timestamp": 1634742252609,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 5,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.21,
+    "accessibility": 0.72,
+    "bestPractices": 0.67,
+    "seo": 0.93,
+    "total": 253
+  },
+  "firstContentfulPaint": 3626.2980000000002,
+  "firstMeaningfulPaint": 3920.0640000000003,
+  "speedIndex": 7771.190591169117,
+  "largestContentfulPaint": 9792.554,
+  "totalBlockingTime": 757.0644999999995,
+  "cumulativeLayoutShift": 0.504316688017459,
+  "timeToInteractive": 12506.459499999997,
+  "maxPotentialFirstInputDelay": 300,
+  "timeToFirstByte": 611.3,
+  "weight": {
+    "summary": "74 requests • 1,683 KiB",
+    "total": 1723280,
+    "image": 498937,
+    "imageCount": 17,
+    "script": 926348,
+    "scriptCount": 25,
+    "document": 36222,
+    "font": 144888,
+    "fontCount": 4,
+    "stylesheet": 78197,
+    "stylesheetCount": 6,
+    "thirdParty": 342169,
+    "thirdPartyCount": 32
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 838,
+    "violations": 104
+  }
+}

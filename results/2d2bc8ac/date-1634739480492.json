@@ -1,0 +1,51 @@
+{
+  "url": "https://www.innogy.pl/pl/dla-domu",
+  "requestedUrl": "https://www.innogy.pl/",
+  "timestamp": 1634740973858,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 8,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.74,
+    "accessibility": 0.82,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 349
+  },
+  "firstContentfulPaint": 2644.65,
+  "firstMeaningfulPaint": 6232.624999999996,
+  "speedIndex": 7133.762217067091,
+  "largestContentfulPaint": 2894.425,
+  "totalBlockingTime": 136,
+  "cumulativeLayoutShift": 0.07255216810438368,
+  "timeToInteractive": 14448.462500000012,
+  "maxPotentialFirstInputDelay": 105,
+  "timeToFirstByte": 364.762,
+  "weight": {
+    "summary": "87 requests • 1,482 KiB",
+    "total": 1517490,
+    "image": 815302,
+    "imageCount": 21,
+    "script": 253385,
+    "scriptCount": 54,
+    "document": 19386,
+    "font": 293920,
+    "fontCount": 5,
+    "stylesheet": 133566,
+    "stylesheetCount": 4,
+    "thirdParty": 100988,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 918,
+    "violations": 47
+  }
+}

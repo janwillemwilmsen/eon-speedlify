@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.hu/hu/lakossagi.html",
+  "requestedUrl": "https://www.eon.hu/",
+  "timestamp": 1634740902771,
+  "ranks": {
+    "hundos": 22,
+    "performance": 23,
+    "accessibility": 12,
+    "cumulative": 22
+  },
+  "lighthouse": {
+    "version": "8.5.1",
+    "performance": 0.07,
+    "accessibility": 0.81,
+    "bestPractices": 0.73,
+    "seo": 0.79,
+    "total": 240
+  },
+  "firstContentfulPaint": 6557.958999999999,
+  "firstMeaningfulPaint": 6557.958999999999,
+  "speedIndex": 9060.427375880336,
+  "largestContentfulPaint": 20775.302,
+  "totalBlockingTime": 1488.5,
+  "cumulativeLayoutShift": 0.8288167572021484,
+  "timeToInteractive": 28739.612500000003,
+  "maxPotentialFirstInputDelay": 687,
+  "timeToFirstByte": 141.981,
+  "weight": {
+    "summary": "185 requests • 5,799 KiB",
+    "total": 5938207,
+    "image": 3676176,
+    "imageCount": 46,
+    "script": 1799606,
+    "scriptCount": 42,
+    "document": 35591,
+    "font": 264656,
+    "fontCount": 6,
+    "stylesheet": 137301,
+    "stylesheetCount": 15,
+    "thirdParty": 1039683,
+    "thirdPartyCount": 80
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1663,
+    "violations": 89
+  }
+}
