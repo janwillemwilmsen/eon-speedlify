@@ -1,0 +1,51 @@
+{
+  "url": "https://www.innogy.sk/web/sk/domacnosti/uvod",
+  "requestedUrl": "https://www.innogy.sk/",
+  "timestamp": 1635431779657,
+  "ranks": {
+    "hundos": 18,
+    "performance": 15,
+    "accessibility": 15,
+    "cumulative": 18
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.24,
+    "accessibility": 0.81,
+    "bestPractices": 0.53,
+    "seo": 0.86,
+    "total": 244
+  },
+  "firstContentfulPaint": 7552.5705,
+  "firstMeaningfulPaint": 7575.0705,
+  "speedIndex": 17788.210657201915,
+  "largestContentfulPaint": 9943.531499999996,
+  "totalBlockingTime": 523.0000000000009,
+  "cumulativeLayoutShift": 0.2855790947808159,
+  "timeToInteractive": 14851.901499999998,
+  "maxPotentialFirstInputDelay": 345,
+  "timeToFirstByte": 486.17900000000003,
+  "weight": {
+    "summary": "105 requests • 2,111 KiB",
+    "total": 2161245,
+    "image": 422556,
+    "imageCount": 43,
+    "script": 1426495,
+    "scriptCount": 35,
+    "document": 30076,
+    "font": 104891,
+    "fontCount": 2,
+    "stylesheet": 141002,
+    "stylesheetCount": 2,
+    "thirdParty": 940440,
+    "thirdPartyCount": 45
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 865,
+    "violations": 36
+  }
+}

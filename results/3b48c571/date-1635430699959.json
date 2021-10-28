@@ -1,0 +1,51 @@
+{
+  "url": "https://www.yippie.de/",
+  "requestedUrl": "https://www.yippie.de/",
+  "timestamp": 1635435091149,
+  "ranks": {
+    "hundos": 6,
+    "performance": 7,
+    "accessibility": 1,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.34,
+    "accessibility": 0.9,
+    "bestPractices": 0.8,
+    "seo": 1,
+    "total": 304
+  },
+  "firstContentfulPaint": 2780.7709999999997,
+  "firstMeaningfulPaint": 2780.7709999999997,
+  "speedIndex": 5189.29527265266,
+  "largestContentfulPaint": 24252.278000000006,
+  "totalBlockingTime": 1105.4999999999982,
+  "cumulativeLayoutShift": 0.03279747433132595,
+  "timeToInteractive": 22835.367000000006,
+  "maxPotentialFirstInputDelay": 491,
+  "timeToFirstByte": 705.6510000000001,
+  "weight": {
+    "summary": "80 requests • 3,410 KiB",
+    "total": 3491896,
+    "image": 281893,
+    "imageCount": 12,
+    "script": 2800883,
+    "scriptCount": 18,
+    "document": 10188,
+    "font": 237770,
+    "fontCount": 8,
+    "stylesheet": 96210,
+    "stylesheetCount": 4,
+    "thirdParty": 2788817,
+    "thirdPartyCount": 64
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 677,
+    "violations": 31
+  }
+}
