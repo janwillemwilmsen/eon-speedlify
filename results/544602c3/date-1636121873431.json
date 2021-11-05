@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/kennisbank/energie-besparen/energielabel/energielabel-2021",
+  "requestedUrl": "https://www.essent.nl/kennisbank/energie-besparen/energielabel/energielabel-2020",
+  "timestamp": 1636124204781,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.51,
+    "accessibility": 0.95,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 319
+  },
+  "firstContentfulPaint": 2094.656,
+  "firstMeaningfulPaint": 2155.156,
+  "speedIndex": 8813.323234859294,
+  "largestContentfulPaint": 2155.156,
+  "totalBlockingTime": 2596.5,
+  "cumulativeLayoutShift": 0.00021354166666666668,
+  "timeToInteractive": 12183.998500000002,
+  "maxPotentialFirstInputDelay": 1465,
+  "timeToFirstByte": 713.715,
+  "weight": {
+    "summary": "47 requests • 1,047 KiB",
+    "total": 1071936,
+    "image": 40230,
+    "imageCount": 6,
+    "script": 725860,
+    "scriptCount": 22,
+    "document": 49023,
+    "font": 201570,
+    "fontCount": 5,
+    "stylesheet": 21744,
+    "stylesheetCount": 1,
+    "thirdParty": 285013,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 421,
+    "violations": 35
+  }
+}
