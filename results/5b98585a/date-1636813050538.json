@@ -1,0 +1,51 @@
+{
+  "url": "https://www.lidl-strom.de/",
+  "requestedUrl": "https://www.lidl-strom.de/",
+  "timestamp": 1636813705992,
+  "ranks": {
+    "hundos": 7,
+    "performance": 3,
+    "accessibility": 15,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.56,
+    "accessibility": 0.81,
+    "bestPractices": 0.87,
+    "seo": 0.69,
+    "total": 293
+  },
+  "firstContentfulPaint": 2549.4840000000004,
+  "firstMeaningfulPaint": 2549.4840000000004,
+  "speedIndex": 6251.276895249413,
+  "largestContentfulPaint": 5295.904,
+  "totalBlockingTime": 549.9920000000002,
+  "cumulativeLayoutShift": 0.0004703665839301215,
+  "timeToInteractive": 4623.9360000000015,
+  "maxPotentialFirstInputDelay": 472,
+  "timeToFirstByte": 273.2829999999999,
+  "weight": {
+    "summary": "43 requests • 729 KiB",
+    "total": 746588,
+    "image": 284067,
+    "imageCount": 5,
+    "script": 234680,
+    "scriptCount": 17,
+    "document": 13907,
+    "font": 140145,
+    "fontCount": 4,
+    "stylesheet": 57886,
+    "stylesheetCount": 1,
+    "thirdParty": 195061,
+    "thirdPartyCount": 31
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 754,
+    "violations": 34
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.e-wie-einfach.de/",
+  "requestedUrl": "https://www.e-wie-einfach.de/",
+  "timestamp": 1636814335763,
+  "ranks": {
+    "hundos": 16,
+    "performance": 15,
+    "accessibility": 17,
+    "cumulative": 16
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.21,
+    "accessibility": 0.75,
+    "bestPractices": 0.87,
+    "seo": 0.86,
+    "total": 269
+  },
+  "firstContentfulPaint": 2888.723,
+  "firstMeaningfulPaint": 2888.723,
+  "speedIndex": 7282.141371786931,
+  "largestContentfulPaint": 10954.903,
+  "totalBlockingTime": 1577.9805000000006,
+  "cumulativeLayoutShift": 0.3131798502604166,
+  "timeToInteractive": 9897.022,
+  "maxPotentialFirstInputDelay": 586,
+  "timeToFirstByte": 488.554,
+  "weight": {
+    "summary": "54 requests • 1,344 KiB",
+    "total": 1376504,
+    "image": 557702,
+    "imageCount": 9,
+    "script": 599752,
+    "scriptCount": 25,
+    "document": 22901,
+    "font": 91942,
+    "fontCount": 5,
+    "stylesheet": 74278,
+    "stylesheetCount": 1,
+    "thirdParty": 194043,
+    "thirdPartyCount": 28
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1138,
+    "violations": 50
+  }
+}
