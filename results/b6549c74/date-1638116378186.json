@@ -1,0 +1,51 @@
+{
+  "url": "https://www.enpure.de/",
+  "requestedUrl": "https://www.enpure.de/",
+  "timestamp": 1638121292919,
+  "ranks": {
+    "hundos": 9,
+    "performance": 10,
+    "accessibility": 5,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.2,
+    "accessibility": 0.81,
+    "bestPractices": 0.8,
+    "seo": 0.78,
+    "total": 259
+  },
+  "firstContentfulPaint": 6539.705,
+  "firstMeaningfulPaint": 6614.705,
+  "speedIndex": 15039.88773424903,
+  "largestContentfulPaint": 31017.338500000005,
+  "totalBlockingTime": 1450.5,
+  "cumulativeLayoutShift": 0.027722981770833335,
+  "timeToInteractive": 24551.879,
+  "maxPotentialFirstInputDelay": 640.5,
+  "timeToFirstByte": 8.982999999999997,
+  "weight": {
+    "summary": "95 requests • 4,910 KiB",
+    "total": 5027735,
+    "image": 1636324,
+    "imageCount": 16,
+    "script": 973821,
+    "scriptCount": 15,
+    "document": 1631,
+    "font": 430724,
+    "fontCount": 5,
+    "stylesheet": 75484,
+    "stylesheetCount": 1,
+    "thirdParty": 3628076,
+    "thirdPartyCount": 76
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 570,
+    "violations": 63
+  }
+}

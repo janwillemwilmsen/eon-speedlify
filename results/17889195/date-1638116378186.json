@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/content/particulier/energie-besparen/zonnepanelen/koop/index.html",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/zonnepanelen/koop/index.html",
+  "timestamp": 1638118606305,
+  "ranks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 4,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.2,
+    "accessibility": 0.78,
+    "bestPractices": 0.53,
+    "seo": 0.86,
+    "total": 237
+  },
+  "firstContentfulPaint": 4341.048000000001,
+  "firstMeaningfulPaint": 5075.8675,
+  "speedIndex": 9498.881875148456,
+  "largestContentfulPaint": 18920.785000000003,
+  "totalBlockingTime": 2103.9955000000045,
+  "cumulativeLayoutShift": 0.034830932617187504,
+  "timeToInteractive": 20907.394999999997,
+  "maxPotentialFirstInputDelay": 1173.0000000000036,
+  "timeToFirstByte": 281.54100000000005,
+  "weight": {
+    "summary": "96 requests • 4,280 KiB",
+    "total": 4382722,
+    "image": 2194625,
+    "imageCount": 37,
+    "script": 1393670,
+    "scriptCount": 33,
+    "document": 42835,
+    "font": 253810,
+    "fontCount": 7,
+    "stylesheet": 125578,
+    "stylesheetCount": 3,
+    "thirdParty": 1358540,
+    "thirdPartyCount": 43
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1330,
+    "violations": 81
+  }
+}

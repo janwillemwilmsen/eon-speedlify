@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.ro/",
+  "requestedUrl": "https://www.eon.ro/",
+  "timestamp": 1638117330365,
+  "ranks": {
+    "hundos": 21,
+    "performance": 17,
+    "accessibility": 21,
+    "cumulative": 21
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.21,
+    "accessibility": 0.7,
+    "bestPractices": 0.67,
+    "seo": 0.91,
+    "total": 249
+  },
+  "firstContentfulPaint": 5575.331999999999,
+  "firstMeaningfulPaint": 8884.598999999998,
+  "speedIndex": 13718.382918861806,
+  "largestContentfulPaint": 27132.215,
+  "totalBlockingTime": 1320.0000000000018,
+  "cumulativeLayoutShift": 0.0248359375,
+  "timeToInteractive": 25740.8185,
+  "maxPotentialFirstInputDelay": 955,
+  "timeToFirstByte": 126.80199999999996,
+  "weight": {
+    "summary": "79 requests • 4,844 KiB",
+    "total": 4960236,
+    "image": 1269722,
+    "imageCount": 23,
+    "script": 2269510,
+    "scriptCount": 26,
+    "document": 41774,
+    "font": 337194,
+    "fontCount": 6,
+    "stylesheet": 745095,
+    "stylesheetCount": 7,
+    "thirdParty": 2017351,
+    "thirdPartyCount": 56
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 792,
+    "violations": 60
+  }
+}

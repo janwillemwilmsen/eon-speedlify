@@ -1,0 +1,51 @@
+{
+  "url": "https://www.oxxio.nl/",
+  "requestedUrl": "https://www.oxxio.nl/",
+  "timestamp": 1638119635888,
+  "ranks": {
+    "hundos": 9,
+    "performance": 8,
+    "accessibility": 4,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.3,
+    "accessibility": 0.89,
+    "bestPractices": 0.73,
+    "seo": 0.83,
+    "total": 275
+  },
+  "firstContentfulPaint": 2565.537,
+  "firstMeaningfulPaint": 5296.273,
+  "speedIndex": 6245.077585607971,
+  "largestContentfulPaint": 13274.053,
+  "totalBlockingTime": 1986.1479999999965,
+  "cumulativeLayoutShift": 0.03418613115946451,
+  "timeToInteractive": 12575.764999999996,
+  "maxPotentialFirstInputDelay": 1094.9999999999964,
+  "timeToFirstByte": 988.6979999999999,
+  "weight": {
+    "summary": "70 requests • 1,457 KiB",
+    "total": 1491845,
+    "image": 4444,
+    "imageCount": 9,
+    "script": 996726,
+    "scriptCount": 29,
+    "document": 74015,
+    "font": 231952,
+    "fontCount": 4,
+    "stylesheet": 128043,
+    "stylesheetCount": 3,
+    "thirdParty": 576787,
+    "thirdPartyCount": 31
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 198,
+    "violations": 40
+  }
+}
