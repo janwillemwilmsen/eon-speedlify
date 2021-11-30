@@ -1,0 +1,51 @@
+{
+  "url": "https://www.greenchoice.nl/tarieven/",
+  "requestedUrl": "https://www.greenchoice.nl/tarieven/",
+  "timestamp": 1638282107518,
+  "ranks": {
+    "hundos": 4,
+    "performance": 5,
+    "accessibility": 4,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.28,
+    "accessibility": 0.89,
+    "bestPractices": 0.87,
+    "seo": 0.9,
+    "total": 294
+  },
+  "firstContentfulPaint": 3117.672,
+  "firstMeaningfulPaint": 3117.672,
+  "speedIndex": 8592.072163578967,
+  "largestContentfulPaint": 5142.165000000001,
+  "totalBlockingTime": 761,
+  "cumulativeLayoutShift": 0.4501101459927029,
+  "timeToInteractive": 14213.387500000004,
+  "maxPotentialFirstInputDelay": 323,
+  "timeToFirstByte": 585.238,
+  "weight": {
+    "summary": "63 requests • 1,564 KiB",
+    "total": 1601976,
+    "image": 162004,
+    "imageCount": 14,
+    "script": 1034806,
+    "scriptCount": 18,
+    "document": 18153,
+    "font": 305135,
+    "fontCount": 11,
+    "stylesheet": 36219,
+    "stylesheetCount": 3,
+    "thirdParty": 506340,
+    "thirdPartyCount": 35
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 650,
+    "violations": 59
+  }
+}
