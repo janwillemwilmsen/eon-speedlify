@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/pk/erdgas/erdgasanbieter-wechseln.html",
+  "requestedUrl": "https://www.eon.de/de/pk/erdgas/erdgasanbieter-wechseln.html",
+  "timestamp": 1638800685829,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 2,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.05,
+    "accessibility": 0.77,
+    "bestPractices": 0.73,
+    "seo": 0.86,
+    "total": 241
+  },
+  "firstContentfulPaint": 3786.8990000000003,
+  "firstMeaningfulPaint": 3786.8990000000003,
+  "speedIndex": 9982.827284803625,
+  "largestContentfulPaint": 16326.890000000003,
+  "totalBlockingTime": 5007.417999999998,
+  "cumulativeLayoutShift": 0.7252539062500001,
+  "timeToInteractive": 19102.0415,
+  "maxPotentialFirstInputDelay": 892.0000000000018,
+  "timeToFirstByte": 73.15200000000002,
+  "weight": {
+    "summary": "292 requests • 2,171 KiB",
+    "total": 2222915,
+    "image": 311366,
+    "imageCount": 20,
+    "script": 1308836,
+    "scriptCount": 163,
+    "document": 29840,
+    "font": 336773,
+    "fontCount": 8,
+    "stylesheet": 184142,
+    "stylesheetCount": 13,
+    "thirdParty": 478800,
+    "thirdPartyCount": 145
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 2666,
+    "violations": 118
+  }
+}

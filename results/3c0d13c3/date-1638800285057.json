@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/content/particulier/energie-besparen/isolatie/spouwmuurisolatie.html",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/isolatie/spouwmuurisolatie.html",
+  "timestamp": 1638802638041,
+  "ranks": {
+    "hundos": 5,
+    "performance": 7,
+    "accessibility": 5,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.19,
+    "accessibility": 0.77,
+    "bestPractices": 0.6,
+    "seo": 0.85,
+    "total": 241
+  },
+  "firstContentfulPaint": 4082.359,
+  "firstMeaningfulPaint": 9143.506000000001,
+  "speedIndex": 11035.5761326535,
+  "largestContentfulPaint": 9372.466499999999,
+  "totalBlockingTime": 2698.4999999999995,
+  "cumulativeLayoutShift": 0.0540673828125,
+  "timeToInteractive": 20332.522000000004,
+  "maxPotentialFirstInputDelay": 710,
+  "timeToFirstByte": 177.51100000000002,
+  "weight": {
+    "summary": "96 requests • 3,068 KiB",
+    "total": 3141434,
+    "image": 975228,
+    "imageCount": 29,
+    "script": 1373058,
+    "scriptCount": 37,
+    "document": 40089,
+    "font": 253825,
+    "fontCount": 7,
+    "stylesheet": 125887,
+    "stylesheetCount": 3,
+    "thirdParty": 1312758,
+    "thirdPartyCount": 52
+  },
+  "run": {
+    "number": 1,
+    "total": 2
+  },
+  "axe": {
+    "passes": 1083,
+    "violations": 59
+  }
+}

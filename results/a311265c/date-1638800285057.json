@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eneco.nl/duurzame-energie/",
+  "requestedUrl": "https://www.eneco.nl/duurzame-energie/",
+  "timestamp": 1638804802382,
+  "ranks": {
+    "hundos": 8,
+    "performance": 7,
+    "accessibility": 8,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.23,
+    "accessibility": 0.76,
+    "bestPractices": 0.73,
+    "seo": 0.93,
+    "total": 265
+  },
+  "firstContentfulPaint": 2211.3579999999997,
+  "firstMeaningfulPaint": 5046.7845,
+  "speedIndex": 9969.446929952253,
+  "largestContentfulPaint": 9896.73,
+  "totalBlockingTime": 3398.5,
+  "cumulativeLayoutShift": 0.13125,
+  "timeToInteractive": 13873.842,
+  "maxPotentialFirstInputDelay": 929,
+  "timeToFirstByte": 1256.578,
+  "weight": {
+    "summary": "79 requests • 1,534 KiB",
+    "total": 1571276,
+    "image": 41388,
+    "imageCount": 26,
+    "script": 1173546,
+    "scriptCount": 31,
+    "document": 171585,
+    "font": 107323,
+    "fontCount": 3,
+    "stylesheet": 76566,
+    "stylesheetCount": 11,
+    "thirdParty": 273297,
+    "thirdPartyCount": 36
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "axe": {
+    "passes": 2385,
+    "violations": 21
+  }
+}
