@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiewacht.com/",
+  "requestedUrl": "https://www.energiewacht.nl/",
+  "timestamp": 1640184976848,
+  "ranks": {
+    "hundos": 1,
+    "performance": 4,
+    "accessibility": 7,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.54,
+    "accessibility": 0.66,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 293
+  },
+  "firstContentfulPaint": 4301.5015,
+  "firstMeaningfulPaint": 4376.759,
+  "speedIndex": 6150.938973895139,
+  "largestContentfulPaint": 9991.404999999995,
+  "totalBlockingTime": 202.5,
+  "cumulativeLayoutShift": 0.028486814286973743,
+  "timeToInteractive": 6576.958999999999,
+  "maxPotentialFirstInputDelay": 122,
+  "timeToFirstByte": 384.40299999999996,
+  "weight": {
+    "summary": "83 requests • 5,724 KiB",
+    "total": 5861398,
+    "image": 5210361,
+    "imageCount": 38,
+    "script": 265786,
+    "scriptCount": 19,
+    "document": 9569,
+    "font": 318262,
+    "fontCount": 7,
+    "stylesheet": 57223,
+    "stylesheetCount": 17,
+    "thirdParty": 219938,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 870,
+    "violations": 50
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://powerhouse.net/",
+  "requestedUrl": "https://www.powerhouse.nl/",
+  "timestamp": 1640183543778,
+  "ranks": {
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.57,
+    "accessibility": 0.94,
+    "bestPractices": 0.87,
+    "seo": 0.84,
+    "total": 322
+  },
+  "firstContentfulPaint": 4436.393,
+  "firstMeaningfulPaint": 4436.393,
+  "speedIndex": 6540.892607457941,
+  "largestContentfulPaint": 7681.393319480896,
+  "totalBlockingTime": 125.5,
+  "cumulativeLayoutShift": 0.08575160916646322,
+  "timeToInteractive": 4962.393319480896,
+  "maxPotentialFirstInputDelay": 301,
+  "timeToFirstByte": 163.85700000000003,
+  "weight": {
+    "summary": "48 requests • 811 KiB",
+    "total": 830437,
+    "image": 480304,
+    "imageCount": 3,
+    "script": 5785,
+    "scriptCount": 1,
+    "document": 51952,
+    "font": 138089,
+    "fontCount": 8,
+    "stylesheet": 153816,
+    "stylesheetCount": 33,
+    "thirdParty": 62548,
+    "thirdPartyCount": 10
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1329,
+    "violations": 126
+  }
+}
