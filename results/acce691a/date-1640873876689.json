@@ -1,0 +1,51 @@
+{
+  "url": "https://eon.pl/dla-domu",
+  "requestedUrl": "https://www.innogy.pl/",
+  "timestamp": 1640874850561,
+  "ranks": {
+    "hundos": 23,
+    "performance": 24,
+    "accessibility": 18,
+    "cumulative": 23
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.02,
+    "accessibility": 0.75,
+    "bestPractices": 0.73,
+    "seo": 0.85,
+    "total": 235
+  },
+  "firstContentfulPaint": 4885.472,
+  "firstMeaningfulPaint": 8003.2875,
+  "speedIndex": 16758.517636534783,
+  "largestContentfulPaint": 8974.625,
+  "totalBlockingTime": 4106.500000000002,
+  "cumulativeLayoutShift": 1.0573476698133681,
+  "timeToInteractive": 29230.605000000003,
+  "maxPotentialFirstInputDelay": 932,
+  "timeToFirstByte": 369.96700000000004,
+  "weight": {
+    "summary": "207 requests • 3,655 KiB",
+    "total": 3742690,
+    "image": 1256394,
+    "imageCount": 12,
+    "script": 1811606,
+    "scriptCount": 33,
+    "document": 70180,
+    "font": 243357,
+    "fontCount": 5,
+    "stylesheet": 303758,
+    "stylesheetCount": 7,
+    "thirdParty": 1572649,
+    "thirdPartyCount": 167
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 13,
+    "violations": 8
+  }
+}

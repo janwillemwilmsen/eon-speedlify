@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/energie/energiecontract",
+  "requestedUrl": "https://www.energiedirect.nl/energie/energiecontract",
+  "timestamp": 1640875775789,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.11,
+    "accessibility": 0.75,
+    "bestPractices": 0.8,
+    "seo": 0.86,
+    "total": 252
+  },
+  "firstContentfulPaint": 3830.4210000000003,
+  "firstMeaningfulPaint": 4339.8555,
+  "speedIndex": 10627.609123204498,
+  "largestContentfulPaint": 8507.643999999998,
+  "totalBlockingTime": 1523.4999999999995,
+  "cumulativeLayoutShift": 0.5020316298948944,
+  "timeToInteractive": 14545.402000000002,
+  "maxPotentialFirstInputDelay": 341.99999999999955,
+  "timeToFirstByte": 616.6460000000001,
+  "weight": {
+    "summary": "93 requests • 1,602 KiB",
+    "total": 1640112,
+    "image": 279354,
+    "imageCount": 17,
+    "script": 1041600,
+    "scriptCount": 33,
+    "document": 45726,
+    "font": 144893,
+    "fontCount": 4,
+    "stylesheet": 84137,
+    "stylesheetCount": 8,
+    "thirdParty": 469779,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 841,
+    "violations": 91
+  }
+}

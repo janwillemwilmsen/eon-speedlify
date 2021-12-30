@@ -1,0 +1,51 @@
+{
+  "url": "https://www.deltaenergie.nl/",
+  "requestedUrl": "https://www.deltaenergie.nl/",
+  "timestamp": 1640876266932,
+  "ranks": {
+    "hundos": 5,
+    "performance": 4,
+    "accessibility": 8,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.36,
+    "accessibility": 0.77,
+    "bestPractices": 0.93,
+    "seo": 0.82,
+    "total": 288
+  },
+  "firstContentfulPaint": 6462.122,
+  "firstMeaningfulPaint": 6462.122,
+  "speedIndex": 14118.821390810164,
+  "largestContentfulPaint": 12093.183,
+  "totalBlockingTime": 467.5,
+  "cumulativeLayoutShift": 0.0004459588792588976,
+  "timeToInteractive": 10372.122,
+  "maxPotentialFirstInputDelay": 251,
+  "timeToFirstByte": 535.2280000000001,
+  "weight": {
+    "summary": "22 requests • 2,289 KiB",
+    "total": 2344023,
+    "image": 57100,
+    "imageCount": 3,
+    "script": 880380,
+    "scriptCount": 5,
+    "document": 60224,
+    "font": 729818,
+    "fontCount": 9,
+    "stylesheet": 616315,
+    "stylesheetCount": 2,
+    "thirdParty": 22800,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 506,
+    "violations": 30
+  }
+}
