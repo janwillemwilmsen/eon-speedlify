@@ -1,0 +1,51 @@
+{
+  "url": "https://www.extraenergie.com/",
+  "requestedUrl": "https://www.extraenergie.com/",
+  "timestamp": 1641568054689,
+  "ranks": {
+    "hundos": 6,
+    "performance": 6,
+    "accessibility": 4,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.47,
+    "accessibility": 0.9,
+    "bestPractices": 0.8,
+    "seo": 0.9,
+    "total": 307
+  },
+  "firstContentfulPaint": 4805.0139999999965,
+  "firstMeaningfulPaint": 4805.0139999999965,
+  "speedIndex": 8749.156284746912,
+  "largestContentfulPaint": 5624.276999999996,
+  "totalBlockingTime": 66.5,
+  "cumulativeLayoutShift": 0.36423512352837456,
+  "timeToInteractive": 6627.976000000001,
+  "maxPotentialFirstInputDelay": 88.5,
+  "timeToFirstByte": 143.514,
+  "weight": {
+    "summary": "74 requests • 1,157 KiB",
+    "total": 1185176,
+    "image": 555645,
+    "imageCount": 26,
+    "script": 166146,
+    "scriptCount": 34,
+    "document": 14179,
+    "font": 84441,
+    "fontCount": 3,
+    "stylesheet": 52794,
+    "stylesheetCount": 5,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 795,
+    "violations": 49
+  }
+}

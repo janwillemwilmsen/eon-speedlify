@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonenergy.com/boilers.html",
+  "requestedUrl": "https://www.eonenergy.com/boilers.html",
+  "timestamp": 1641566356018,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.37,
+    "accessibility": 0.99,
+    "bestPractices": 0.73,
+    "seo": 0.9,
+    "total": 299
+  },
+  "firstContentfulPaint": 2140.226,
+  "firstMeaningfulPaint": 2140.226,
+  "speedIndex": 8084.397217965618,
+  "largestContentfulPaint": 9262.326000000001,
+  "totalBlockingTime": 762,
+  "cumulativeLayoutShift": 0.1034439029097557,
+  "timeToInteractive": 13793.586500000001,
+  "maxPotentialFirstInputDelay": 220,
+  "timeToFirstByte": 1352.944,
+  "weight": {
+    "summary": "56 requests • 1,564 KiB",
+    "total": 1601276,
+    "image": 135129,
+    "imageCount": 2,
+    "script": 1018403,
+    "scriptCount": 32,
+    "document": 111430,
+    "font": 226463,
+    "fontCount": 5,
+    "stylesheet": 54189,
+    "stylesheetCount": 1,
+    "thirdParty": 608847,
+    "thirdPartyCount": 26
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 103,
+    "violations": 10
+  }
+}

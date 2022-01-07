@@ -1,0 +1,51 @@
+{
+  "url": "https://green-planet-energy.de/",
+  "requestedUrl": "https://www.greenpeace-energy.de/",
+  "timestamp": 1641568086093,
+  "ranks": {
+    "hundos": 9,
+    "performance": 9,
+    "accessibility": 9,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.26,
+    "accessibility": 0.7,
+    "bestPractices": 0.8,
+    "seo": 0.98,
+    "total": 274
+  },
+  "firstContentfulPaint": 4370.726500000001,
+  "firstMeaningfulPaint": 4370.726500000001,
+  "speedIndex": 8483.655054934277,
+  "largestContentfulPaint": 6375.6140000000005,
+  "totalBlockingTime": 491.00000000000045,
+  "cumulativeLayoutShift": 1.241032032436795,
+  "timeToInteractive": 10392.198000000002,
+  "maxPotentialFirstInputDelay": 327,
+  "timeToFirstByte": 182.53199999999993,
+  "weight": {
+    "summary": "56 requests • 922 KiB",
+    "total": 943952,
+    "image": 126180,
+    "imageCount": 14,
+    "script": 454333,
+    "scriptCount": 28,
+    "document": 21407,
+    "font": 292796,
+    "fontCount": 6,
+    "stylesheet": 37239,
+    "stylesheetCount": 2,
+    "thirdParty": 349481,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1554,
+    "violations": 37
+  }
+}
