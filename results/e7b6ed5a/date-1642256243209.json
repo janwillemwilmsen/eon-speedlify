@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonenergy.com/solar-panels/photovoltaic.html",
+  "requestedUrl": "https://www.eonenergy.com/solar-panels/photovoltaic.html",
+  "timestamp": 1642257448594,
+  "ranks": {
+    "hundos": 6,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.33,
+    "accessibility": 0.99,
+    "bestPractices": 0.67,
+    "seo": 0.91,
+    "total": 290
+  },
+  "firstContentfulPaint": 1983.4450000000004,
+  "firstMeaningfulPaint": 2062.8950000000004,
+  "speedIndex": 7314.113295706459,
+  "largestContentfulPaint": 7711.517500000001,
+  "totalBlockingTime": 753,
+  "cumulativeLayoutShift": 0.2616159865061442,
+  "timeToInteractive": 13071.355,
+  "maxPotentialFirstInputDelay": 196,
+  "timeToFirstByte": 780.386,
+  "weight": {
+    "summary": "51 requests • 1,511 KiB",
+    "total": 1547125,
+    "image": 119476,
+    "imageCount": 2,
+    "script": 990244,
+    "scriptCount": 30,
+    "document": 104176,
+    "font": 226475,
+    "fontCount": 5,
+    "stylesheet": 54160,
+    "stylesheetCount": 1,
+    "thirdParty": 574271,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 96,
+    "violations": 11
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/",
+  "requestedUrl": "https://www.eonnext.com/",
+  "timestamp": 1642256647499,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 21,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.47,
+    "accessibility": 0.74,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 313
+  },
+  "firstContentfulPaint": 2144.2889999999993,
+  "firstMeaningfulPaint": 5524.057,
+  "speedIndex": 4654.14436614513,
+  "largestContentfulPaint": 6321.915000000001,
+  "totalBlockingTime": 832,
+  "cumulativeLayoutShift": 0.046339047749837235,
+  "timeToInteractive": 8996.635999999999,
+  "maxPotentialFirstInputDelay": 360,
+  "timeToFirstByte": 81.01899999999999,
+  "weight": {
+    "summary": "56 requests • 897 KiB",
+    "total": 918243,
+    "image": 57983,
+    "imageCount": 7,
+    "script": 604428,
+    "scriptCount": 15,
+    "document": 41411,
+    "font": 161171,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 241069,
+    "thirdPartyCount": 39
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1959,
+    "violations": 32
+  }
+}
