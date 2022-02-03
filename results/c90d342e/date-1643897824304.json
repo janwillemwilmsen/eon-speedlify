@@ -1,0 +1,51 @@
+{
+  "url": "https://vandebron.nl/404",
+  "requestedUrl": "https://vandebron.nl/energie-berekenen/energie-vergelijken/energievergelijker",
+  "timestamp": 1643899264162,
+  "ranks": {
+    "hundos": 1,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.36,
+    "accessibility": 0.97,
+    "bestPractices": 0.87,
+    "seo": 0.87,
+    "total": 307
+  },
+  "firstContentfulPaint": 2852.5779999999995,
+  "firstMeaningfulPaint": 2852.5779999999995,
+  "speedIndex": 7937.833178497715,
+  "largestContentfulPaint": 3002.769,
+  "totalBlockingTime": 1689.500000000001,
+  "cumulativeLayoutShift": 0.3899245368109809,
+  "timeToInteractive": 13977.303999999996,
+  "maxPotentialFirstInputDelay": 937,
+  "timeToFirstByte": 106.334,
+  "weight": {
+    "summary": "54 requests • 1,384 KiB",
+    "total": 1417697,
+    "image": 84255,
+    "imageCount": 6,
+    "script": 1037202,
+    "scriptCount": 15,
+    "document": 39243,
+    "font": 158727,
+    "fontCount": 8,
+    "stylesheet": 86423,
+    "stylesheetCount": 5,
+    "thirdParty": 1378272,
+    "thirdPartyCount": 47
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 394,
+    "violations": 13
+  }
+}
