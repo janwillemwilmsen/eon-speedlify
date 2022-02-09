@@ -1,0 +1,51 @@
+{
+  "url": "https://www.budgetthuis.nl/energie/",
+  "requestedUrl": "https://www.budgetthuis.nl/energie/",
+  "timestamp": 1644416342688,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 8,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.37,
+    "accessibility": 0.8,
+    "bestPractices": 0.87,
+    "seo": 0.92,
+    "total": 296
+  },
+  "firstContentfulPaint": 6096.972500000001,
+  "firstMeaningfulPaint": 6924.195000000001,
+  "speedIndex": 8247.431984545716,
+  "largestContentfulPaint": 12052.892,
+  "totalBlockingTime": 491.50000000000045,
+  "cumulativeLayoutShift": 0.014152580579121908,
+  "timeToInteractive": 11130.783,
+  "maxPotentialFirstInputDelay": 196,
+  "timeToFirstByte": 183.2,
+  "weight": {
+    "summary": "48 requests • 1,354 KiB",
+    "total": 1386971,
+    "image": 238657,
+    "imageCount": 15,
+    "script": 824901,
+    "scriptCount": 22,
+    "document": 10565,
+    "font": 271617,
+    "fontCount": 5,
+    "stylesheet": 40642,
+    "stylesheetCount": 2,
+    "thirdParty": 368347,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 624,
+    "violations": 73
+  }
+}
