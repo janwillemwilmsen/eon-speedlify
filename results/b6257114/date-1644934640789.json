@@ -1,0 +1,51 @@
+{
+  "url": "https://voltasolar.nl/",
+  "requestedUrl": "https://www.voltasolar.nl/",
+  "timestamp": 1644937341771,
+  "ranks": {
+    "hundos": 7,
+    "performance": 12,
+    "accessibility": 4,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.13,
+    "accessibility": 0.79,
+    "bestPractices": 0.87,
+    "seo": 0.86,
+    "total": 265
+  },
+  "firstContentfulPaint": 4645.987999999999,
+  "firstMeaningfulPaint": 4645.987999999999,
+  "speedIndex": 8566.58069373424,
+  "largestContentfulPaint": 6233.607,
+  "totalBlockingTime": 2502.4194999999995,
+  "cumulativeLayoutShift": 0.38954644097222224,
+  "timeToInteractive": 13049.612451660156,
+  "maxPotentialFirstInputDelay": 968,
+  "timeToFirstByte": 643.091,
+  "weight": {
+    "summary": "107 requests • 1,776 KiB",
+    "total": 1818695,
+    "image": 546617,
+    "imageCount": 36,
+    "script": 970872,
+    "scriptCount": 43,
+    "document": 116603,
+    "font": 58521,
+    "fontCount": 7,
+    "stylesheet": 124277,
+    "stylesheetCount": 9,
+    "thirdParty": 988124,
+    "thirdPartyCount": 51
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1459,
+    "violations": 60
+  }
+}
