@@ -1,0 +1,51 @@
+{
+  "url": "https://www.lekker.de/",
+  "requestedUrl": "https://www.lekker.de/",
+  "timestamp": 1645628501866,
+  "ranks": {
+    "hundos": 8,
+    "performance": 7,
+    "accessibility": 6,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.44,
+    "accessibility": 0.8,
+    "bestPractices": 0.8,
+    "seo": 0.86,
+    "total": 290
+  },
+  "firstContentfulPaint": 3382.888,
+  "firstMeaningfulPaint": 3805.603,
+  "speedIndex": 7735.525620486131,
+  "largestContentfulPaint": 8820.688500000004,
+  "totalBlockingTime": 429.5,
+  "cumulativeLayoutShift": 0.0005048285590277778,
+  "timeToInteractive": 9719.511999999999,
+  "maxPotentialFirstInputDelay": 202,
+  "timeToFirstByte": 90.697,
+  "weight": {
+    "summary": "92 requests • 1,167 KiB",
+    "total": 1194715,
+    "image": 389637,
+    "imageCount": 25,
+    "script": 447023,
+    "scriptCount": 28,
+    "document": 24538,
+    "font": 240595,
+    "fontCount": 9,
+    "stylesheet": 74411,
+    "stylesheetCount": 11,
+    "thirdParty": 629141,
+    "thirdPartyCount": 51
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 707,
+    "violations": 79
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.suewag.de/privatkunden",
+  "requestedUrl": "https://www.suewag.de/",
+  "timestamp": 1645626390622,
+  "ranks": {
+    "hundos": 20,
+    "performance": 23,
+    "accessibility": 25,
+    "cumulative": 20
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.04,
+    "accessibility": 0.69,
+    "bestPractices": 0.87,
+    "seo": 0.86,
+    "total": 246
+  },
+  "firstContentfulPaint": 4029.9485000000022,
+  "firstMeaningfulPaint": 4029.9485000000022,
+  "speedIndex": 12600.16483624543,
+  "largestContentfulPaint": 17650.666000000005,
+  "totalBlockingTime": 3413.028999999999,
+  "cumulativeLayoutShift": 1.811328125,
+  "timeToInteractive": 18193.504000000004,
+  "maxPotentialFirstInputDelay": 700.0000000000009,
+  "timeToFirstByte": 85.88199999999999,
+  "weight": {
+    "summary": "270 requests • 2,417 KiB",
+    "total": 2475029,
+    "image": 201674,
+    "imageCount": 10,
+    "script": 1844929,
+    "scriptCount": 113,
+    "document": 17064,
+    "font": 225892,
+    "fontCount": 4,
+    "stylesheet": 137657,
+    "stylesheetCount": 8,
+    "thirdParty": 1865808,
+    "thirdPartyCount": 217
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 5130,
+    "violations": 282
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.isoprofs.nl/",
+  "requestedUrl": "https://isoprofs.nl/",
+  "timestamp": 1645628122320,
+  "ranks": {
+    "hundos": 9,
+    "performance": 11,
+    "accessibility": 5,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.23,
+    "accessibility": 0.74,
+    "bestPractices": 0.73,
+    "seo": 0.91,
+    "total": 261
+  },
+  "firstContentfulPaint": 3170.5375000000004,
+  "firstMeaningfulPaint": 3170.5375000000004,
+  "speedIndex": 9702.563330902929,
+  "largestContentfulPaint": 9992.853,
+  "totalBlockingTime": 811.5000000000005,
+  "cumulativeLayoutShift": 0.30043371582031253,
+  "timeToInteractive": 17181.7915,
+  "maxPotentialFirstInputDelay": 458,
+  "timeToFirstByte": 1510.4969999999998,
+  "weight": {
+    "summary": "46 requests • 5,328 KiB",
+    "total": 5456184,
+    "image": 4749779,
+    "imageCount": 18,
+    "script": 488635,
+    "scriptCount": 12,
+    "document": 30461,
+    "font": 99323,
+    "fontCount": 3,
+    "stylesheet": 63133,
+    "stylesheetCount": 4,
+    "thirdParty": 541750,
+    "thirdPartyCount": 22
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 521,
+    "violations": 33
+  }
+}
