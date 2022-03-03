@@ -1,0 +1,51 @@
+{
+  "url": "https://www.cvtotaal.nl/",
+  "requestedUrl": "https://www.cvtotaal.nl/",
+  "timestamp": 1646319531947,
+  "ranks": {
+    "hundos": 12,
+    "performance": 8,
+    "accessibility": 6,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.3,
+    "accessibility": 0.69,
+    "bestPractices": 0.67,
+    "seo": 0.82,
+    "total": 248
+  },
+  "firstContentfulPaint": 3316.624999999999,
+  "firstMeaningfulPaint": 3919.3009999999995,
+  "speedIndex": 8639.257214447134,
+  "largestContentfulPaint": 6994.591499999997,
+  "totalBlockingTime": 1109,
+  "cumulativeLayoutShift": 0.0005972854826185438,
+  "timeToInteractive": 15899.954999999998,
+  "maxPotentialFirstInputDelay": 322,
+  "timeToFirstByte": 154.216,
+  "weight": {
+    "summary": "277 requests • 1,511 KiB",
+    "total": 1547769,
+    "image": 411698,
+    "imageCount": 34,
+    "script": 737183,
+    "scriptCount": 203,
+    "document": 37692,
+    "font": 111482,
+    "fontCount": 5,
+    "stylesheet": 232915,
+    "stylesheetCount": 16,
+    "thirdParty": 500604,
+    "thirdPartyCount": 46
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1778,
+    "violations": 58
+  }
+}

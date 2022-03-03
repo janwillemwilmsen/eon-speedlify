@@ -1,0 +1,51 @@
+{
+  "url": "https://www.rhenag.de/",
+  "requestedUrl": "https://www.rhenag.de/",
+  "timestamp": 1646317562760,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.48,
+    "accessibility": 0.89,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 310
+  },
+  "firstContentfulPaint": 3304.7938745727542,
+  "firstMeaningfulPaint": 4613.046,
+  "speedIndex": 9145.220481910135,
+  "largestContentfulPaint": 11960.996,
+  "totalBlockingTime": 227.5000000000009,
+  "cumulativeLayoutShift": 0.0029088624318440756,
+  "timeToInteractive": 11704.2525,
+  "maxPotentialFirstInputDelay": 319.0000000000018,
+  "timeToFirstByte": 298.02199999999993,
+  "weight": {
+    "summary": "62 requests • 2,071 KiB",
+    "total": 2121176,
+    "image": 1124990,
+    "imageCount": 13,
+    "script": 547715,
+    "scriptCount": 25,
+    "document": 74148,
+    "font": 295824,
+    "fontCount": 6,
+    "stylesheet": 54800,
+    "stylesheetCount": 1,
+    "thirdParty": 244577,
+    "thirdPartyCount": 31
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1177,
+    "violations": 39
+  }
+}
