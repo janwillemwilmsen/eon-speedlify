@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/beta/horizontal-offer",
+  "requestedUrl": "https://www.essent.nl/beta/horizontal-offer",
+  "timestamp": 1646662679305,
+  "ranks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 4,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.22,
+    "accessibility": 0.92,
+    "bestPractices": 0.8,
+    "seo": 0.86,
+    "total": 280
+  },
+  "firstContentfulPaint": 3498.5840000000003,
+  "firstMeaningfulPaint": 3498.5840000000003,
+  "speedIndex": 14670.289881599692,
+  "largestContentfulPaint": 6919.414000000002,
+  "totalBlockingTime": 2419.4999999999927,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 24508.027499999997,
+  "maxPotentialFirstInputDelay": 1501.9999999999927,
+  "timeToFirstByte": 1312.75,
+  "weight": {
+    "summary": "51 requests • 3,496 KiB",
+    "total": 3579607,
+    "image": 319900,
+    "imageCount": 8,
+    "script": 2693218,
+    "scriptCount": 25,
+    "document": 201661,
+    "font": 189141,
+    "fontCount": 5,
+    "stylesheet": 166870,
+    "stylesheetCount": 1,
+    "thirdParty": 288666,
+    "thirdPartyCount": 28
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 450,
+    "violations": 49
+  }
+}
