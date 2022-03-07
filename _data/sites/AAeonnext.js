@@ -8,12 +8,12 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://www.eonnext.com/policies/energy-efficiency",
+		// "https://www.eonnext.com/policies/energy-efficiency",
 		"https://www.eonnext.com/tariffs",
 		"https://www.eonenergy.com/for-your-home/products-and-services",
 		"https://www.eonenergy.com/solar-panels/photovoltaic.html",
-		"https://www.eonenergy.com/boilers.html",
-		"https://www.eonnext.com/business",
+		// "https://www.eonenergy.com/boilers.html",
+		// "https://www.eonnext.com/business",
 		"https://www.eonnext.com/dashboard/journey/quote",	 
 	]
 };

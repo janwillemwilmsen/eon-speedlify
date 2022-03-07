@@ -8,11 +8,11 @@ module.exports = {
 		freshChrome: "site",
 	},
 	urls: [
-		"https://www.eon.de/de/pk/solar/solaranlage-kaufen.html",
+		// "https://www.eon.de/de/pk/solar/solaranlage-kaufen.html",
 		"https://www.eon.de/de/pk/service/kontakt.html",
 		"https://www.eon.de/de/gk.html",
 		"https://www.eon.de/de/pk/strom/stromanbieter/guenstiger-stromanbieter.html",
 		"https://www.eon.de/de/pk/erdgas/erdgasanbieter-wechseln.html",
-		"https://www.eon.de/de/pk/heizung/waermepumpe.html",	 
+		// "https://www.eon.de/de/pk/heizung/waermepumpe.html",	 
 	]
 };

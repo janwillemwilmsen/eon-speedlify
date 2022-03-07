@@ -10,9 +10,9 @@ module.exports = {
 	urls: [
 		// "https://vandebron.nl/",
 		"https://vandebron.nl/energie-berekenen",
-		"https://vandebron.nl/energiebronnen",
-		"https://vandebron.nl/energie-berekenen/energie-vergelijken/energievergelijker",
-		"https://vandebron.nl/klantenservice",
+		// "https://vandebron.nl/energiebronnen",
+		// "https://vandebron.nl/energie-berekenen/energie-vergelijken/energievergelijker",
+		// "https://vandebron.nl/klantenservice",
 	
 	]
 };
