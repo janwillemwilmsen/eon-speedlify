@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/content/particulier/producten/stroom_gas/index.html",
+  "requestedUrl": "https://www.essent.nl/content/particulier/producten/stroom_gas/index.html",
+  "timestamp": 1651155837397,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.31,
+    "accessibility": 0.91,
+    "bestPractices": 0.67,
+    "seo": 0.86,
+    "total": 275
+  },
+  "firstContentfulPaint": 4208.436,
+  "firstMeaningfulPaint": 4208.436,
+  "speedIndex": 8968.845014705987,
+  "largestContentfulPaint": 4284.123,
+  "totalBlockingTime": 2317.000000000001,
+  "cumulativeLayoutShift": 0.09667445373535156,
+  "timeToInteractive": 14794.473000000004,
+  "maxPotentialFirstInputDelay": 1173.000000000001,
+  "timeToFirstByte": 713.2159999999999,
+  "weight": {
+    "summary": "81 requests • 1,589 KiB",
+    "total": 1626933,
+    "image": 224445,
+    "imageCount": 20,
+    "script": 749681,
+    "scriptCount": 29,
+    "document": 13833,
+    "font": 242751,
+    "fontCount": 6,
+    "stylesheet": 74050,
+    "stylesheetCount": 3,
+    "thirdParty": 538054,
+    "thirdPartyCount": 46
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 795,
+    "violations": 69
+  }
+}
