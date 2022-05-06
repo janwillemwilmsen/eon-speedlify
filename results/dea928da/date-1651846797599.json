@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/beste-bod/",
+  "requestedUrl": "https://www.energiedirect.nl/beste-bod/",
+  "timestamp": 1651847457756,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.09,
+    "accessibility": 0.75,
+    "bestPractices": 0.8,
+    "seo": 0.79,
+    "total": 243
+  },
+  "firstContentfulPaint": 3513.192,
+  "firstMeaningfulPaint": 3962.318,
+  "speedIndex": 10634.298291001058,
+  "largestContentfulPaint": 10880.425000000003,
+  "totalBlockingTime": 2413.7430000000004,
+  "cumulativeLayoutShift": 0.4752870638449704,
+  "timeToInteractive": 14208.769,
+  "maxPotentialFirstInputDelay": 442,
+  "timeToFirstByte": 1065.3410000000001,
+  "weight": {
+    "summary": "90 requests • 1,470 KiB",
+    "total": 1505714,
+    "image": 167264,
+    "imageCount": 15,
+    "script": 1042083,
+    "scriptCount": 31,
+    "document": 29198,
+    "font": 133493,
+    "fontCount": 3,
+    "stylesheet": 85100,
+    "stylesheetCount": 7,
+    "thirdParty": 460629,
+    "thirdPartyCount": 50
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 764,
+    "violations": 86
+  }
+}
