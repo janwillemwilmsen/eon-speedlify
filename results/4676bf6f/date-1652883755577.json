@@ -1,0 +1,51 @@
+{
+  "url": "https://www.greenchoice.nl/tarieven/op-dit-moment-helaas-geen-aanbod/",
+  "requestedUrl": "https://www.greenchoice.nl/tarieven/",
+  "timestamp": 1652883867932,
+  "ranks": {
+    "hundos": 4,
+    "performance": 3,
+    "accessibility": 2,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.53,
+    "accessibility": 0.94,
+    "bestPractices": 0.87,
+    "seo": 0.77,
+    "total": 311
+  },
+  "firstContentfulPaint": 2881.4010000000003,
+  "firstMeaningfulPaint": 2881.4010000000003,
+  "speedIndex": 8347.88561182075,
+  "largestContentfulPaint": 3181.7450000000003,
+  "totalBlockingTime": 811.5,
+  "cumulativeLayoutShift": 0.015385843912760417,
+  "timeToInteractive": 12942.104999999998,
+  "maxPotentialFirstInputDelay": 356,
+  "timeToFirstByte": 410.314,
+  "weight": {
+    "summary": "58 requests • 1,501 KiB",
+    "total": 1537401,
+    "image": 145920,
+    "imageCount": 13,
+    "script": 1171457,
+    "scriptCount": 21,
+    "document": 10657,
+    "font": 133618,
+    "fontCount": 7,
+    "stylesheet": 37375,
+    "stylesheetCount": 4,
+    "thirdParty": 624144,
+    "thirdPartyCount": 38
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 341,
+    "violations": 26
+  }
+}
