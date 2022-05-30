@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonenergy.com/for-your-home/service-unavailable/service-unavailable",
+  "requestedUrl": "https://www.eonenergy.com/for-your-home/products-and-services",
+  "timestamp": 1653920650058,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.42,
+    "accessibility": 0.84,
+    "bestPractices": 0.73,
+    "seo": 0.85,
+    "total": 284
+  },
+  "firstContentfulPaint": 3994.036,
+  "firstMeaningfulPaint": 3994.036,
+  "speedIndex": 10592.509051783301,
+  "largestContentfulPaint": 5118.2930000000015,
+  "totalBlockingTime": 554,
+  "cumulativeLayoutShift": 0.03921770148807102,
+  "timeToInteractive": 13520.7075,
+  "maxPotentialFirstInputDelay": 211,
+  "timeToFirstByte": 409.439,
+  "weight": {
+    "summary": "65 requests • 1,933 KiB",
+    "total": 1979586,
+    "image": 491834,
+    "imageCount": 28,
+    "script": 1037569,
+    "scriptCount": 22,
+    "document": 6875,
+    "font": 135607,
+    "fontCount": 3,
+    "stylesheet": 255587,
+    "stylesheetCount": 1,
+    "thirdParty": 514629,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 251,
+    "violations": 10
+  }
+}
