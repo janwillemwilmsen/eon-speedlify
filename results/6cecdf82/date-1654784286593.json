@@ -1,0 +1,51 @@
+{
+  "url": "https://www.vattenfall.nl/producten/energie/",
+  "requestedUrl": "https://www.vattenfall.nl/producten/energie/",
+  "timestamp": 1654784345209,
+  "ranks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 3,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.05,
+    "accessibility": 0.92,
+    "bestPractices": 0.73,
+    "seo": 0.93,
+    "total": 263
+  },
+  "firstContentfulPaint": 3317.1,
+  "firstMeaningfulPaint": 3559.3219999999997,
+  "speedIndex": 14586.744153280204,
+  "largestContentfulPaint": 26512.367,
+  "totalBlockingTime": 4025.5,
+  "cumulativeLayoutShift": 0.8764404296875,
+  "timeToInteractive": 34279.18,
+  "maxPotentialFirstInputDelay": 1719,
+  "timeToFirstByte": 803.9870000000001,
+  "weight": {
+    "summary": "70 requests • 5,726 KiB",
+    "total": 5863508,
+    "image": 1649900,
+    "imageCount": 10,
+    "script": 3696297,
+    "scriptCount": 28,
+    "document": 12154,
+    "font": 401393,
+    "fontCount": 11,
+    "stylesheet": 85900,
+    "stylesheetCount": 2,
+    "thirdParty": 276117,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 834,
+    "violations": 5
+  }
+}
