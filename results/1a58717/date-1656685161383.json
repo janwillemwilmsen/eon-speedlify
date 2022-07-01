@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonenergy.com/for-your-home/errors/quote-and-signup-error",
+  "requestedUrl": "https://www.eonenergy.com/for-your-home/products-and-services",
+  "timestamp": 1656685427037,
+  "ranks": {
+    "hundos": 4,
+    "performance": 2,
+    "accessibility": 4,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.41,
+    "accessibility": 0.82,
+    "bestPractices": 0.73,
+    "seo": 0.85,
+    "total": 281
+  },
+  "firstContentfulPaint": 4017.0290000000005,
+  "firstMeaningfulPaint": 4017.0290000000005,
+  "speedIndex": 19357.260412432574,
+  "largestContentfulPaint": 4793.028,
+  "totalBlockingTime": 573.5,
+  "cumulativeLayoutShift": 0.0713651721742418,
+  "timeToInteractive": 13187.280499999993,
+  "maxPotentialFirstInputDelay": 224,
+  "timeToFirstByte": 444.751,
+  "weight": {
+    "summary": "64 requests • 1,868 KiB",
+    "total": 1912519,
+    "image": 422077,
+    "imageCount": 27,
+    "script": 1040638,
+    "scriptCount": 22,
+    "document": 6553,
+    "font": 135620,
+    "fontCount": 3,
+    "stylesheet": 255528,
+    "stylesheetCount": 1,
+    "thirdParty": 517619,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 113,
+    "violations": 10
+  }
+}
