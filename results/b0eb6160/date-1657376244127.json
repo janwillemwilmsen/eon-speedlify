@@ -1,0 +1,51 @@
+{
+  "url": "https://www.klimaatroute.nl/",
+  "requestedUrl": "https://www.klimaatroute.nl/",
+  "timestamp": 1657376694827,
+  "ranks": {
+    "hundos": 7,
+    "performance": 5,
+    "accessibility": 10,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.56,
+    "accessibility": 0.65,
+    "bestPractices": 0.73,
+    "seo": 0.82,
+    "total": 276
+  },
+  "firstContentfulPaint": 2312.0519999999997,
+  "firstMeaningfulPaint": 2506.1699999999996,
+  "speedIndex": 6281.153212983432,
+  "largestContentfulPaint": 4740.330499999999,
+  "totalBlockingTime": 276.5,
+  "cumulativeLayoutShift": 0.2523832194010417,
+  "timeToInteractive": 7650.343000000001,
+  "maxPotentialFirstInputDelay": 225.99999999999955,
+  "timeToFirstByte": 498.004,
+  "weight": {
+    "summary": "76 requests • 869 KiB",
+    "total": 889874,
+    "image": 304097,
+    "imageCount": 44,
+    "script": 471853,
+    "scriptCount": 17,
+    "document": 15939,
+    "font": 48168,
+    "fontCount": 2,
+    "stylesheet": 48274,
+    "stylesheetCount": 6,
+    "thirdParty": 474240,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 775,
+    "violations": 65
+  }
+}

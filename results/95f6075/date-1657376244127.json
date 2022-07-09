@@ -1,0 +1,51 @@
+{
+  "url": "https://www.vattenfall.nl/",
+  "requestedUrl": "https://www.vattenfall.nl/",
+  "timestamp": 1657376669443,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.07,
+    "accessibility": 0.93,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 272
+  },
+  "firstContentfulPaint": 2771.2879999999996,
+  "firstMeaningfulPaint": 9177.1005,
+  "speedIndex": 12466.885367280358,
+  "largestContentfulPaint": 24551.05049999999,
+  "totalBlockingTime": 3242.000000000001,
+  "cumulativeLayoutShift": 0.8757121785481771,
+  "timeToInteractive": 28369.148499999996,
+  "maxPotentialFirstInputDelay": 1684.000000000001,
+  "timeToFirstByte": 629.4269999999999,
+  "weight": {
+    "summary": "71 requests • 4,503 KiB",
+    "total": 4611017,
+    "image": 737326,
+    "imageCount": 13,
+    "script": 3355409,
+    "scriptCount": 27,
+    "document": 13077,
+    "font": 401366,
+    "fontCount": 11,
+    "stylesheet": 86128,
+    "stylesheetCount": 2,
+    "thirdParty": 338189,
+    "thirdPartyCount": 17
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 844,
+    "violations": 4
+  }
+}
