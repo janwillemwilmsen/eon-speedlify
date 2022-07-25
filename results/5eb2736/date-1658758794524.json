@@ -1,0 +1,51 @@
+{
+  "url": "https://www.vattenfall.de/",
+  "requestedUrl": "https://www.vattenfall.de/",
+  "timestamp": 1658759679646,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.4,
+    "accessibility": 0.68,
+    "bestPractices": 0.87,
+    "seo": 0.95,
+    "total": 290
+  },
+  "firstContentfulPaint": 2843.669,
+  "firstMeaningfulPaint": 2843.669,
+  "speedIndex": 5983.563351285076,
+  "largestContentfulPaint": 6313.669,
+  "totalBlockingTime": 345.49999999999955,
+  "cumulativeLayoutShift": 0.7331444350425155,
+  "timeToInteractive": 8263.669,
+  "maxPotentialFirstInputDelay": 326,
+  "timeToFirstByte": 243.09299999999996,
+  "weight": {
+    "summary": "38 requests • 1,808 KiB",
+    "total": 1851358,
+    "image": 1229156,
+    "imageCount": 8,
+    "script": 238843,
+    "scriptCount": 18,
+    "document": 14765,
+    "font": 240138,
+    "fontCount": 5,
+    "stylesheet": 124295,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1354,
+    "violations": 47
+  }
+}
