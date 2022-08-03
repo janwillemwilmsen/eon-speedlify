@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/content/particulier/energie-besparen/isolatie/index.html",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/isolatie/index.html",
+  "timestamp": 1659536578231,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.14,
+    "accessibility": 0.89,
+    "bestPractices": 0.67,
+    "seo": 0.85,
+    "total": 255
+  },
+  "firstContentfulPaint": 4056.532,
+  "firstMeaningfulPaint": 4056.532,
+  "speedIndex": 11049.34906992744,
+  "largestContentfulPaint": 6186.11,
+  "totalBlockingTime": 2301.000000000002,
+  "cumulativeLayoutShift": 0.30547190348307296,
+  "timeToInteractive": 20777.964499999995,
+  "maxPotentialFirstInputDelay": 1101,
+  "timeToFirstByte": 289.973,
+  "weight": {
+    "summary": "110 requests • 3,142 KiB",
+    "total": 3217412,
+    "image": 1091392,
+    "imageCount": 23,
+    "script": 1471486,
+    "scriptCount": 50,
+    "document": 14519,
+    "font": 242753,
+    "fontCount": 6,
+    "stylesheet": 74073,
+    "stylesheetCount": 3,
+    "thirdParty": 1249329,
+    "thirdPartyCount": 72
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 986,
+    "violations": 64
+  }
+}

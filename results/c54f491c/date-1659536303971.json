@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/service-unavailable",
+  "requestedUrl": "https://www.eonnext.com/dashboard/journey/quote",
+  "timestamp": 1659536469701,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.21,
+    "accessibility": 0.96,
+    "bestPractices": 0.93,
+    "seo": 0.86,
+    "total": 296
+  },
+  "firstContentfulPaint": 10725.257000000001,
+  "firstMeaningfulPaint": 11510.586500000001,
+  "speedIndex": 10725.257000000001,
+  "largestContentfulPaint": 17149.952500000003,
+  "totalBlockingTime": 1306.9999999999982,
+  "cumulativeLayoutShift": 0.031494140625,
+  "timeToInteractive": 21498.788108749388,
+  "maxPotentialFirstInputDelay": 519.9999999999964,
+  "timeToFirstByte": 616.698,
+  "weight": {
+    "summary": "138 requests • 2,497 KiB",
+    "total": 2557060,
+    "image": 7376,
+    "imageCount": 25,
+    "script": 2276122,
+    "scriptCount": 39,
+    "document": 36016,
+    "font": 161610,
+    "fontCount": 8,
+    "stylesheet": 23378,
+    "stylesheetCount": 4,
+    "thirdParty": 745295,
+    "thirdPartyCount": 105
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 472,
+    "violations": 3
+  }
+}

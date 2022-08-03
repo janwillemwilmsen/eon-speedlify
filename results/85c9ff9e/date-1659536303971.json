@@ -1,0 +1,51 @@
+{
+  "url": "https://www.yello.de/",
+  "requestedUrl": "https://www.yello.de/",
+  "timestamp": 1659537343163,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.6,
+    "accessibility": 0.78,
+    "bestPractices": 0.8,
+    "seo": 1,
+    "total": 318
+  },
+  "firstContentfulPaint": 1597.964,
+  "firstMeaningfulPaint": 1597.964,
+  "speedIndex": 5290.861390344204,
+  "largestContentfulPaint": 4280.105,
+  "totalBlockingTime": 564.0000000000009,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 9014.076000000003,
+  "maxPotentialFirstInputDelay": 420,
+  "timeToFirstByte": 851.2930000000001,
+  "weight": {
+    "summary": "66 requests • 1,997 KiB",
+    "total": 2045089,
+    "image": 952042,
+    "imageCount": 13,
+    "script": 709188,
+    "scriptCount": 41,
+    "document": 64395,
+    "font": 217635,
+    "fontCount": 3,
+    "stylesheet": 50110,
+    "stylesheetCount": 1,
+    "thirdParty": 1260560,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2345,
+    "violations": 24
+  }
+}
