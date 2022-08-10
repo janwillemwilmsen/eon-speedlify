@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiedirect.nl/energie-aanbiedingen",
+  "requestedUrl": "https://www.energiedirect.nl/beta/calculate",
+  "timestamp": 1660141159587,
+  "ranks": {
+    "hundos": 4,
+    "performance": 1,
+    "accessibility": 5,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.74,
+    "accessibility": 0.87,
+    "bestPractices": 0.67,
+    "seo": 0.7,
+    "total": 298
+  },
+  "firstContentfulPaint": 1860.222,
+  "firstMeaningfulPaint": 1860.222,
+  "speedIndex": 2759.1956440000167,
+  "largestContentfulPaint": 8129.527999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.008810763888888889,
+  "timeToInteractive": 1860.222,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 694.048,
+  "weight": {
+    "summary": "97 requests • 1,790 KiB",
+    "total": 1832933,
+    "image": 76351,
+    "imageCount": 11,
+    "script": 1574324,
+    "scriptCount": 52,
+    "document": 49016,
+    "font": 65109,
+    "fontCount": 4,
+    "stylesheet": 26642,
+    "stylesheetCount": 3,
+    "thirdParty": 1043339,
+    "thirdPartyCount": 73
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 384,
+    "violations": 41
+  }
+}
