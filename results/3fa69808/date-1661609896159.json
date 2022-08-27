@@ -1,0 +1,51 @@
+{
+  "url": "https://www.coolblue.nl/energie",
+  "requestedUrl": "https://www.coolblue.nl/energie",
+  "timestamp": 1661610803099,
+  "ranks": {
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.48,
+    "accessibility": 0.91,
+    "bestPractices": 0.8,
+    "seo": 0.92,
+    "total": 311
+  },
+  "firstContentfulPaint": 1555.176,
+  "firstMeaningfulPaint": 1555.176,
+  "speedIndex": 5536.0648891486935,
+  "largestContentfulPaint": 9893.240999999998,
+  "totalBlockingTime": 631.5,
+  "cumulativeLayoutShift": 0.008894694010416667,
+  "timeToInteractive": 9362.056999999999,
+  "maxPotentialFirstInputDelay": 393,
+  "timeToFirstByte": 326.442,
+  "weight": {
+    "summary": "56 requests • 1,074 KiB",
+    "total": 1099855,
+    "image": 234900,
+    "imageCount": 16,
+    "script": 692622,
+    "scriptCount": 16,
+    "document": 71446,
+    "font": 74340,
+    "fontCount": 4,
+    "stylesheet": 19506,
+    "stylesheetCount": 2,
+    "thirdParty": 453335,
+    "thirdPartyCount": 37
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 18,
+    "violations": 5
+  }
+}
