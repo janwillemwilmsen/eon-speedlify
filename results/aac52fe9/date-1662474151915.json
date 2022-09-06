@@ -1,0 +1,51 @@
+{
+  "url": "https://www.frankenergie.nl/",
+  "requestedUrl": "https://www.frankenergie.nl/",
+  "timestamp": 1662474278045,
+  "ranks": {
+    "hundos": 1,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.47,
+    "accessibility": 0.97,
+    "bestPractices": 0.93,
+    "seo": 1,
+    "total": 337
+  },
+  "firstContentfulPaint": 1411.99,
+  "firstMeaningfulPaint": 1411.99,
+  "speedIndex": 4812.457206838036,
+  "largestContentfulPaint": 7855.097999999999,
+  "totalBlockingTime": 704.5,
+  "cumulativeLayoutShift": 0.00031658935546874996,
+  "timeToInteractive": 10474.919999999998,
+  "maxPotentialFirstInputDelay": 517,
+  "timeToFirstByte": 13.097000000000008,
+  "weight": {
+    "summary": "71 requests • 1,074 KiB",
+    "total": 1100054,
+    "image": 25479,
+    "imageCount": 9,
+    "script": 846511,
+    "scriptCount": 36,
+    "document": 32521,
+    "font": 116126,
+    "fontCount": 4,
+    "stylesheet": 24925,
+    "stylesheetCount": 3,
+    "thirdParty": 495385,
+    "thirdPartyCount": 25
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 191,
+    "violations": 33
+  }
+}
