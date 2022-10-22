@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiewacht.nl/cv-ketels/aanbiedingen",
+  "requestedUrl": "https://www.ewacht.nl/",
+  "timestamp": 1666448699335,
+  "ranks": {
+    "hundos": 6,
+    "performance": 11,
+    "accessibility": 3,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.12,
+    "accessibility": 0.85,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 270
+  },
+  "firstContentfulPaint": 7874.489,
+  "firstMeaningfulPaint": 7874.489,
+  "speedIndex": 13369.237374627806,
+  "largestContentfulPaint": 7944.489,
+  "totalBlockingTime": 2761.000000000002,
+  "cumulativeLayoutShift": 0.19534301079644098,
+  "timeToInteractive": 22650.037999999997,
+  "maxPotentialFirstInputDelay": 1146,
+  "timeToFirstByte": 90.29599999999999,
+  "weight": {
+    "summary": "195 requests • 3,315 KiB",
+    "total": 3394661,
+    "image": 266975,
+    "imageCount": 31,
+    "script": 2806357,
+    "scriptCount": 69,
+    "document": 9792,
+    "font": 149240,
+    "fontCount": 2,
+    "stylesheet": 153690,
+    "stylesheetCount": 10,
+    "thirdParty": 1685113,
+    "thirdPartyCount": 83
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 988,
+    "violations": 36
+  }
+}
