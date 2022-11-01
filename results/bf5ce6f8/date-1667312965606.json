@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/gk.html",
+  "requestedUrl": "https://www.eon.de/de/gk.html",
+  "timestamp": 1667313055006,
+  "ranks": {
+    "hundos": 4,
+    "performance": 1,
+    "accessibility": 4,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.11,
+    "accessibility": 0.72,
+    "bestPractices": 0.8,
+    "seo": 0.86,
+    "total": 249
+  },
+  "firstContentfulPaint": 3827.963,
+  "firstMeaningfulPaint": 8045.650500000004,
+  "speedIndex": 19070.90963137865,
+  "largestContentfulPaint": 28195.847500000007,
+  "totalBlockingTime": 10160.000000000007,
+  "cumulativeLayoutShift": 0.21533203125,
+  "timeToInteractive": 28908.954000000012,
+  "maxPotentialFirstInputDelay": 2105.999999999998,
+  "timeToFirstByte": 147.93900000000002,
+  "weight": {
+    "summary": "265 requests • 3,645 KiB",
+    "total": 3732872,
+    "image": 430006,
+    "imageCount": 16,
+    "script": 2270175,
+    "scriptCount": 130,
+    "document": 48248,
+    "font": 211461,
+    "fontCount": 7,
+    "stylesheet": 239837,
+    "stylesheetCount": 16,
+    "thirdParty": 1751352,
+    "thirdPartyCount": 186
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 3363,
+    "violations": 83
+  }
+}
