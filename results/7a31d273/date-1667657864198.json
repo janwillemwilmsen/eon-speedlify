@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/tariffs",
+  "requestedUrl": "https://www.eonnext.com/tariffs",
+  "timestamp": 1667657880287,
+  "ranks": {
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.31,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.93,
+    "total": 320
+  },
+  "firstContentfulPaint": 3810.3119999999994,
+  "firstMeaningfulPaint": 4843.530999999999,
+  "speedIndex": 9485.796783874053,
+  "largestContentfulPaint": 5020.512000000001,
+  "totalBlockingTime": 1998.499999999999,
+  "cumulativeLayoutShift": 0.046428311665852866,
+  "timeToInteractive": 9523.101499999999,
+  "maxPotentialFirstInputDelay": 1313,
+  "timeToFirstByte": 1304.032,
+  "weight": {
+    "summary": "40 requests • 1,005 KiB",
+    "total": 1028719,
+    "image": 1822,
+    "imageCount": 2,
+    "script": 788968,
+    "scriptCount": 17,
+    "document": 34904,
+    "font": 161180,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 248545,
+    "thirdPartyCount": 23
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 659,
+    "violations": 6
+  }
+}

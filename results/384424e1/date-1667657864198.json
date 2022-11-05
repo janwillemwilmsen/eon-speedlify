@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/content/particulier/energie-besparen/verwarmingsinstallaties/service-en-onderhoud/index.html",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/verwarmingsinstallaties/service-en-onderhoud/index.html",
+  "timestamp": 1667658113701,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 1,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.13,
+    "accessibility": 0.95,
+    "bestPractices": 0.67,
+    "seo": 0.93,
+    "total": 268
+  },
+  "firstContentfulPaint": 3767.647,
+  "firstMeaningfulPaint": 4417.0795,
+  "speedIndex": 9697.082379960246,
+  "largestContentfulPaint": 11185.061000000002,
+  "totalBlockingTime": 2049.0880000000043,
+  "cumulativeLayoutShift": 0.27500577449798586,
+  "timeToInteractive": 19526.094,
+  "maxPotentialFirstInputDelay": 1085.999999999999,
+  "timeToFirstByte": 487.0249999999999,
+  "weight": {
+    "summary": "111 requests • 2,889 KiB",
+    "total": 2958457,
+    "image": 812487,
+    "imageCount": 27,
+    "script": 1504934,
+    "scriptCount": 46,
+    "document": 15328,
+    "font": 203133,
+    "fontCount": 5,
+    "stylesheet": 75189,
+    "stylesheetCount": 4,
+    "thirdParty": 1313027,
+    "thirdPartyCount": 68
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1039,
+    "violations": 79
+  }
+}

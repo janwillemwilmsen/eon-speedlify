@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eneco.nl/",
+  "requestedUrl": "https://www.eneco.nl/",
+  "timestamp": 1667658259930,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.3,
+    "accessibility": 0.79,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 282
+  },
+  "firstContentfulPaint": 2700.843,
+  "firstMeaningfulPaint": 2700.843,
+  "speedIndex": 8841.227999121,
+  "largestContentfulPaint": 11865.800500000001,
+  "totalBlockingTime": 1134.1550000000007,
+  "cumulativeLayoutShift": 0.0006302083333333333,
+  "timeToInteractive": 14963.873,
+  "maxPotentialFirstInputDelay": 533,
+  "timeToFirstByte": 838.858,
+  "weight": {
+    "summary": "60 requests • 2,730 KiB",
+    "total": 2795456,
+    "image": 908097,
+    "imageCount": 8,
+    "script": 1358824,
+    "scriptCount": 30,
+    "document": 183654,
+    "font": 249898,
+    "fontCount": 5,
+    "stylesheet": 92688,
+    "stylesheetCount": 9,
+    "thirdParty": 326977,
+    "thirdPartyCount": 18
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2319,
+    "violations": 9
+  }
+}
