@@ -1,0 +1,51 @@
+{
+  "url": "https://www.energiewacht.nl/",
+  "requestedUrl": "https://www.geas.nl/",
+  "timestamp": 1668522016965,
+  "ranks": {
+    "hundos": 4,
+    "performance": 10,
+    "accessibility": 2,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.11,
+    "accessibility": 0.87,
+    "bestPractices": 0.87,
+    "seo": 0.93,
+    "total": 278
+  },
+  "firstContentfulPaint": 6313,
+  "firstMeaningfulPaint": 6313,
+  "speedIndex": 11993.892141966997,
+  "largestContentfulPaint": 16750,
+  "totalBlockingTime": 3770.5,
+  "cumulativeLayoutShift": 0.19534301079644098,
+  "timeToInteractive": 18347,
+  "maxPotentialFirstInputDelay": 1411,
+  "timeToFirstByte": 127.45800000000001,
+  "weight": {
+    "summary": "175 requests • 2,524 KiB",
+    "total": 2584894,
+    "image": 513590,
+    "imageCount": 32,
+    "script": 1768257,
+    "scriptCount": 62,
+    "document": 9541,
+    "font": 149261,
+    "fontCount": 2,
+    "stylesheet": 122766,
+    "stylesheetCount": 5,
+    "thirdParty": 622282,
+    "thirdPartyCount": 73
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1143,
+    "violations": 51
+  }
+}
