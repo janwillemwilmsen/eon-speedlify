@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/pk/strom/stromanbieter/guenstiger-stromanbieter.html",
+  "requestedUrl": "https://www.eon.de/de/pk/strom/stromanbieter/guenstiger-stromanbieter.html",
+  "timestamp": 1668694803986,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 1,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.19,
+    "accessibility": 0.8,
+    "bestPractices": 0.87,
+    "seo": 0.93,
+    "total": 279
+  },
+  "firstContentfulPaint": 3746.985,
+  "firstMeaningfulPaint": 3746.985,
+  "speedIndex": 11056.310914028465,
+  "largestContentfulPaint": 16244.46999999999,
+  "totalBlockingTime": 4026.999999999998,
+  "cumulativeLayoutShift": 0.0103125,
+  "timeToInteractive": 18103.084999999985,
+  "maxPotentialFirstInputDelay": 735.9999999999982,
+  "timeToFirstByte": 95.66000000000003,
+  "weight": {
+    "summary": "263 requests • 2,325 KiB",
+    "total": 2380563,
+    "image": 474784,
+    "imageCount": 14,
+    "script": 1394709,
+    "scriptCount": 129,
+    "document": 33833,
+    "font": 239939,
+    "fontCount": 5,
+    "stylesheet": 188509,
+    "stylesheetCount": 13,
+    "thirdParty": 692013,
+    "thirdPartyCount": 174
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2504,
+    "violations": 126
+  }
+}
