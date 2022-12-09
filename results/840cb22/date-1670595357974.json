@@ -1,0 +1,51 @@
+{
+  "url": "https://www.zon7.nl/",
+  "requestedUrl": "https://www.zon7.nl/",
+  "timestamp": 1670595528181,
+  "ranks": {
+    "hundos": 7,
+    "performance": 3,
+    "accessibility": 9,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.64,
+    "accessibility": 0.76,
+    "bestPractices": 0.73,
+    "seo": 0.57,
+    "total": 270
+  },
+  "firstContentfulPaint": 2700.5849999999996,
+  "firstMeaningfulPaint": 3127.8799999999997,
+  "speedIndex": 3770.0212936756866,
+  "largestContentfulPaint": 6870.486445281984,
+  "totalBlockingTime": 237.5,
+  "cumulativeLayoutShift": 0.006782127518104132,
+  "timeToInteractive": 5259.513000000001,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 118.66300000000001,
+  "weight": {
+    "summary": "62 requests • 827 KiB",
+    "total": 846667,
+    "image": 560742,
+    "imageCount": 31,
+    "script": 224676,
+    "scriptCount": 15,
+    "document": 7488,
+    "font": 30360,
+    "fontCount": 5,
+    "stylesheet": 23401,
+    "stylesheetCount": 5,
+    "thirdParty": 191489,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 510,
+    "violations": 32
+  }
+}
