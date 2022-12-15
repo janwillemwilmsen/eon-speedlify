@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/zonnepanelen",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/zonnepanelen/index.html",
+  "timestamp": 1671114046362,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.66,
+    "accessibility": 0.93,
+    "bestPractices": 0.67,
+    "seo": 0.91,
+    "total": 317
+  },
+  "firstContentfulPaint": 1594.5420000000001,
+  "firstMeaningfulPaint": 1594.5420000000001,
+  "speedIndex": 2321.9975840000125,
+  "largestContentfulPaint": 12314.880000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.2803858880996704,
+  "timeToInteractive": 1594.5420000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 943.559,
+  "weight": {
+    "summary": "97 requests • 2,558 KiB",
+    "total": 2619848,
+    "image": 534598,
+    "imageCount": 14,
+    "script": 1697523,
+    "scriptCount": 46,
+    "document": 60390,
+    "font": 260488,
+    "fontCount": 8,
+    "stylesheet": 29430,
+    "stylesheetCount": 3,
+    "thirdParty": 1195111,
+    "thirdPartyCount": 66
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1160,
+    "violations": 75
+  }
+}
