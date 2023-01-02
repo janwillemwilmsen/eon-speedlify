@@ -1,0 +1,51 @@
+{
+  "url": "https://www.kemkens.nl/",
+  "requestedUrl": "https://www.kemkens.nl/",
+  "timestamp": 1672668978097,
+  "ranks": {
+    "hundos": 12,
+    "performance": 4,
+    "accessibility": 12,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.54,
+    "accessibility": 0.3,
+    "bestPractices": 0.73,
+    "seo": 0.92,
+    "total": 249
+  },
+  "firstContentfulPaint": 2144.793,
+  "firstMeaningfulPaint": 2144.793,
+  "speedIndex": 4569.572260052227,
+  "largestContentfulPaint": 3167.4610000000002,
+  "totalBlockingTime": 471,
+  "cumulativeLayoutShift": 1.4751987109714084,
+  "timeToInteractive": 12304.206500000004,
+  "maxPotentialFirstInputDelay": 206,
+  "timeToFirstByte": 338.459,
+  "weight": {
+    "summary": "97 requests • 1,961 KiB",
+    "total": 2008399,
+    "image": 1101612,
+    "imageCount": 35,
+    "script": 662805,
+    "scriptCount": 28,
+    "document": 11215,
+    "font": 168576,
+    "fontCount": 5,
+    "stylesheet": 62754,
+    "stylesheetCount": 21,
+    "thirdParty": 638691,
+    "thirdPartyCount": 33
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1028,
+    "violations": 70
+  }
+}
