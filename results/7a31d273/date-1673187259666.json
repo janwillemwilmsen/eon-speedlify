@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eonnext.com/tariffs",
+  "requestedUrl": "https://www.eonenergy.com/for-your-home/products-and-services",
+  "timestamp": 1673187288267,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.32,
+    "accessibility": 0.96,
+    "bestPractices": 0.93,
+    "seo": 0.93,
+    "total": 314
+  },
+  "firstContentfulPaint": 4177.648,
+  "firstMeaningfulPaint": 8044.638000000001,
+  "speedIndex": 6507.839329055572,
+  "largestContentfulPaint": 10015.382999999998,
+  "totalBlockingTime": 1044.9300000000012,
+  "cumulativeLayoutShift": 0.03453125,
+  "timeToInteractive": 9779.196,
+  "maxPotentialFirstInputDelay": 441,
+  "timeToFirstByte": 42.936,
+  "weight": {
+    "summary": "44 requests • 1,061 KiB",
+    "total": 1086698,
+    "image": 3132,
+    "imageCount": 3,
+    "script": 829633,
+    "scriptCount": 17,
+    "document": 49015,
+    "font": 161719,
+    "fontCount": 4,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 248212,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 585,
+    "violations": 8
+  }
+}
