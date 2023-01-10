@@ -1,0 +1,51 @@
+{
+  "url": "https://www.voltalimburg.nl/",
+  "requestedUrl": "https://www.voltalimburg.nl/",
+  "timestamp": 1673360576057,
+  "ranks": {
+    "hundos": 9,
+    "performance": 3,
+    "accessibility": 11,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.59,
+    "accessibility": 0.4,
+    "bestPractices": 0.8,
+    "seo": 0.85,
+    "total": 264
+  },
+  "firstContentfulPaint": 4150.105,
+  "firstMeaningfulPaint": 4150.105,
+  "speedIndex": 4496.103669077097,
+  "largestContentfulPaint": 8283.579999999998,
+  "totalBlockingTime": 178,
+  "cumulativeLayoutShift": 0.025208333333333336,
+  "timeToInteractive": 5822.325,
+  "maxPotentialFirstInputDelay": 187,
+  "timeToFirstByte": 173.757,
+  "weight": {
+    "summary": "83 requests • 1,365 KiB",
+    "total": 1397874,
+    "image": 821321,
+    "imageCount": 25,
+    "script": 338165,
+    "scriptCount": 21,
+    "document": 11629,
+    "font": 163255,
+    "fontCount": 8,
+    "stylesheet": 62901,
+    "stylesheetCount": 25,
+    "thirdParty": 341172,
+    "thirdPartyCount": 19
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 935,
+    "violations": 43
+  }
+}
