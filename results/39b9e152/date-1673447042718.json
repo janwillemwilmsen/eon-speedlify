@@ -1,0 +1,51 @@
+{
+  "url": "https://www.eon.de/de/pk/service/kontakt.html",
+  "requestedUrl": "https://www.eon.de/de/pk/service/kontakt.html",
+  "timestamp": 1673447077873,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.02,
+    "accessibility": 0.75,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 250
+  },
+  "firstContentfulPaint": 4289.134000000001,
+  "firstMeaningfulPaint": 8035.148499999998,
+  "speedIndex": 14848.24494445723,
+  "largestContentfulPaint": 17357.59349999999,
+  "totalBlockingTime": 4387.073000000002,
+  "cumulativeLayoutShift": 1.869833984375,
+  "timeToInteractive": 18520.301499999994,
+  "maxPotentialFirstInputDelay": 592.9999999999991,
+  "timeToFirstByte": 2412.043,
+  "weight": {
+    "summary": "229 requests • 2,461 KiB",
+    "total": 2520153,
+    "image": 699403,
+    "imageCount": 19,
+    "script": 1311053,
+    "scriptCount": 99,
+    "document": 22692,
+    "font": 248695,
+    "fontCount": 6,
+    "stylesheet": 190840,
+    "stylesheetCount": 14,
+    "thirdParty": 668223,
+    "thirdPartyCount": 160
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 2219,
+    "violations": 112
+  }
+}
