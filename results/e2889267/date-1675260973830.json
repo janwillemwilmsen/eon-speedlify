@@ -1,0 +1,51 @@
+{
+  "url": "https://www.essent.nl/cv-ketels/onderhoud",
+  "requestedUrl": "https://www.essent.nl/content/particulier/energie-besparen/verwarmingsinstallaties/service-en-onderhoud/index.html",
+  "timestamp": 1675261211685,
+  "ranks": {
+    "hundos": 2,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "8.6.0",
+    "performance": 0.68,
+    "accessibility": 0.92,
+    "bestPractices": 0.67,
+    "seo": 0.91,
+    "total": 318
+  },
+  "firstContentfulPaint": 1586.118,
+  "firstMeaningfulPaint": 1586.118,
+  "speedIndex": 2069.30782799997,
+  "largestContentfulPaint": 6424.704000000002,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.2816293230056763,
+  "timeToInteractive": 1586.118,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 1990.378,
+  "weight": {
+    "summary": "75 requests • 1,974 KiB",
+    "total": 2021146,
+    "image": 190860,
+    "imageCount": 8,
+    "script": 1431820,
+    "scriptCount": 36,
+    "document": 72516,
+    "font": 259613,
+    "fontCount": 8,
+    "stylesheet": 29418,
+    "stylesheetCount": 3,
+    "thirdParty": 878248,
+    "thirdPartyCount": 49
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "axe": {
+    "passes": 1283,
+    "violations": 73
+  }
+}
